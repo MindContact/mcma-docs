@@ -54,6 +54,10 @@ nella tabella qui sotto.
 | Sky | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-sky/privacy/en/ |
 | Reach | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-reach/privacy/ |
 | Reach | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-reach/privacy/en/ |
+| Metronome | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-metronome/privacy/ |
+| Metronome | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-metronome/privacy/en/ |
+| Breathe | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-breathe/privacy/ |
+| Breathe | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-breathe/privacy/en/ |
 
 Il sorgente Markdown di ogni pagina è affiancato all'HTML, così il testo resta
 leggibile e diffabile anche fuori dal browser.
