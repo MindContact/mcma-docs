@@ -58,6 +58,8 @@ nella tabella qui sotto.
 | Metronome | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-metronome/privacy/en/ |
 | Breathe | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-breathe/privacy/ |
 | Breathe | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-breathe/privacy/en/ |
+| Sundial | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-sundial/privacy/ |
+| Sundial | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-sundial/privacy/en/ |
 
 Il sorgente Markdown di ogni pagina è affiancato all'HTML, così il testo resta
 leggibile e diffabile anche fuori dal browser.
