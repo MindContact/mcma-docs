@@ -50,6 +50,10 @@ nella tabella qui sotto.
 | Golden | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-golden/privacy/en/ |
 | Qibla | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-qibla/privacy/ |
 | Qibla | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-qibla/privacy/en/ |
+| Sky | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-sky/privacy/ |
+| Sky | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-sky/privacy/en/ |
+| Reach | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-reach/privacy/ |
+| Reach | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-reach/privacy/en/ |
 
 Il sorgente Markdown di ogni pagina è affiancato all'HTML, così il testo resta
 leggibile e diffabile anche fuori dal browser.
