@@ -48,6 +48,8 @@ nella tabella qui sotto.
 | Wheel | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-wheel/privacy/en/ |
 | Golden | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-golden/privacy/ |
 | Golden | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-golden/privacy/en/ |
+| Qibla | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-qibla/privacy/ |
+| Qibla | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-qibla/privacy/en/ |
 
 Il sorgente Markdown di ogni pagina è affiancato all'HTML, così il testo resta
 leggibile e diffabile anche fuori dal browser.
