@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informativa sulla privacy — Lumos</title>
+<meta name="description" content="Informativa sulla privacy dell'app Lumos, torcia con comandi vocali.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p class="lang"><strong>Italiano</strong><a href="en/">English</a></p>
+
+  <h1>Informativa sulla privacy — Lumos</h1>
+  <p class="updated">Ultimo aggiornamento: 3 settembre 2026</p>
+
+  <p class="lede">Lumos è una torcia. Fa una cosa sola e raccoglie il meno possibile per farla.</p>
+  <p>Titolare del trattamento: MindContact — <a href="mailto:mindcontact.apps@gmail.com">mindcontact.apps@gmail.com</a></p>
+
+  <h2>In breve</h2>
+  <ul>
+    <li>Lumos <strong>non</strong> crea account, <strong>non</strong> chiede registrazione, <strong>non</strong> raccoglie nome, email o rubrica.</li>
+    <li>L'audio del microfono <strong>non</strong> viene registrato, salvato o inviato ai nostri server. Non abbiamo server.</li>
+    <li>La fotocamera <strong>non</strong> cattura né foto né video: viene aperta solo per accendere il flash LED.</li>
+    <li>L'unico dato che lascia il dispositivo è quello raccolto da Google AdMob per mostrare gli annunci.</li>
+  </ul>
+
+  <h2>Permessi e a cosa servono</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Permesso</th><th>Perché</th><th>Cosa lascia il dispositivo</th></tr></thead>
+    <tbody>
+      <tr><td>Fotocamera</td><td>il flash LED è accessibile solo attraverso lo stack fotocamera</td><td>nulla: nessuna immagine viene acquisita</td></tr>
+      <tr><td>Microfono</td><td>riconoscere gli incantesimi «Lumos», «Lumos Maxima», «Nox»</td><td>vedi «Riconoscimento vocale»</td></tr>
+      <tr><td>Internet</td><td>riconoscimento vocale di rete e annunci</td><td>vedi le due sezioni seguenti</td></tr>
+      <tr><td>Wake lock</td><td>tenere lo schermo acceso mentre la luce serve</td><td>nulla</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>Riconoscimento vocale</h2>
+  <p>Il riconoscimento vocale non è svolto da Lumos: usiamo il servizio di riconoscimento <strong>installato sul tuo dispositivo</strong> (su Android tipicamente quello di Google, su iOS quello di Apple).</p>
+  <ul>
+    <li>Lumos riceve solo il testo riconosciuto, lo confronta con i tre incantesimi e lo scarta subito dopo.</li>
+    <li>Il testo non viene salvato su disco né trasmesso da noi a nessuno.</li>
+    <li>A seconda delle impostazioni del dispositivo, il riconoscimento può avvenire sul dispositivo o sui server del fornitore del sistema operativo. In quest'ultimo caso l'audio è trattato da quel fornitore secondo la sua informativa: <a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.apple.com/legal/privacy/">Apple</a>.</li>
+    <li>Il microfono si apre <strong>solo</strong> dopo che hai toccato il pulsante del microfono, e si chiude quando lo tocchi di nuovo o esci dall'app.</li>
+  </ul>
+
+  <h3>Quale dei due riconoscitori usa Lumos</h3>
+  <p>Lumos preferisce sempre il riconoscitore <strong>locale</strong> del dispositivo (su Android <code>createOnDeviceSpeechRecognizer</code>, dalla versione 12 in poi): il modello gira sul telefono e l'audio non viene inviato a nessuno per essere trascritto.</p>
+  <p>Se quel motore manca o rifiuta di funzionare, Lumos ripiega sul riconoscitore predefinito del sistema — <strong>e quello, a seconda del dispositivo e della lingua, può inviare l'audio ai server del fornitore.</strong> Il ripiego esiste perché su molti telefoni il modello locale non è installato, e una torcia che non sente è una torcia rotta.</p>
+  <p>Se preferisci che questo non accada mai, attiva <strong>«Ascolta solo in locale»</strong> (tocca la scritta LUMOS in alto a sinistra). Con quell'opzione Lumos usa esclusivamente il riconoscitore locale e, dove non c'è, dichiara di non poter sentire invece di prendere la strada di rete. È una garanzia, non una preferenza: l'opzione «preferisci offline» del riconoscitore di sistema è una richiesta che il sistema può ignorare, e per questo Lumos non ci si affida.</p>
+
+  <h2>Pubblicità</h2>
+  <p>Lumos mostra annunci tramite <strong>Google AdMob</strong>. AdMob può raccogliere e trattare:</p>
+  <ul>
+    <li>l'identificativo pubblicitario del dispositivo (Advertising ID / IDFA);</li>
+    <li>l'indirizzo IP e informazioni tecniche sul dispositivo;</li>
+    <li>dati di interazione con gli annunci.</li>
+  </ul>
+  <p>Questi dati sono trattati da Google come titolare autonomo. Informativa e opzioni: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></p>
+  <p>Puoi limitare gli annunci personalizzati dalle impostazioni del sistema:</p>
+  <ul>
+    <li><strong>Android</strong> — Impostazioni › Privacy › Annunci</li>
+    <li><strong>iOS</strong> — Impostazioni › Privacy e sicurezza › Tracciamento</li>
+  </ul>
+  <p>Nell'Area economica europea, nel Regno Unito e in Svizzera, prima di mostrare annunci personalizzati viene richiesto il consenso tramite il messaggio di Google (Consent Management Platform). Puoi rifiutare e continuare a usare l'app: vedrai annunci non personalizzati.</p>
+
+  <h2>Dati raccolti da noi</h2>
+  <p>Nessuno. Lumos non ha backend, non invia telemetria, non usa analytics e non salva alcun dato personale sul dispositivo. Le uniche cose salvate sono le preferenze — nucleo della bacchetta, suoni silenziati, gesti, «Ascolta solo in locale» — che restano sul telefono e non vengono mai trasmesse.</p>
+
+  <h2>Minori</h2>
+  <p>Lumos non è indirizzata ai minori di 13 anni e non raccoglie consapevolmente dati di minori.</p>
+
+  <h2>I tuoi diritti</h2>
+  <p>Non trattando dati personali, non abbiamo dati da esportare o cancellare. Per i dati raccolti da Google AdMob, i diritti si esercitano verso Google secondo la sua informativa. Disinstallare l'app interrompe ogni raccolta.</p>
+
+  <h2>Modifiche</h2>
+  <p>Eventuali modifiche a questa informativa saranno pubblicate a questo indirizzo, con la data di aggiornamento in cima.</p>
+
+  <h2>Contatti</h2>
+  <p><a href="mailto:mindcontact.apps@gmail.com">mindcontact.apps@gmail.com</a></p>
+
+  <footer>Lumos — MindContact</footer>
+</main>
+</body>
+</html>

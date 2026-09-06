@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Lumos</title>
+<meta name="description" content="Privacy policy for Lumos, a torch app with voice commands.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+  <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
+
+  <h1>Privacy Policy — Lumos</h1>
+  <p class="updated">Last updated: 3 September 2026</p>
+
+  <p class="lede">Lumos is a torch. It does one thing, and collects as little as possible to do it.</p>
+  <p>Data controller: MindContact — <a href="mailto:mindcontact.apps@gmail.com">mindcontact.apps@gmail.com</a></p>
+
+  <h2>In short</h2>
+  <ul>
+    <li>Lumos creates <strong>no</strong> account, asks for <strong>no</strong> sign-up, and collects <strong>no</strong> name, email or contacts.</li>
+    <li>Microphone audio is <strong>never</strong> recorded, stored or sent to our servers. We have no servers.</li>
+    <li>The camera captures <strong>no</strong> photos or video: it is opened only to switch on the LED flash.</li>
+    <li>The only data that leaves your device is what Google AdMob collects in order to serve ads.</li>
+  </ul>
+
+  <h2>Permissions and why they exist</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Permission</th><th>Why</th><th>What leaves the device</th></tr></thead>
+    <tbody>
+      <tr><td>Camera</td><td>the LED flash is only reachable through the camera stack</td><td>nothing: no image is captured</td></tr>
+      <tr><td>Microphone</td><td>to hear the spells “Lumos”, “Lumos Maxima”, “Nox”</td><td>see “Speech recognition”</td></tr>
+      <tr><td>Internet</td><td>network speech recognition and ads</td><td>see the two sections below</td></tr>
+      <tr><td>Wake lock</td><td>keeping the screen awake while the light is needed</td><td>nothing</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>Speech recognition</h2>
+  <p>Lumos does not perform speech recognition itself. It uses the recognition service <strong>installed on your device</strong> (typically Google's on Android, Apple's on iOS).</p>
+  <ul>
+    <li>Lumos receives only the recognised text, matches it against the three spells and discards it immediately.</li>
+    <li>That text is never written to disk, and never transmitted by us to anyone.</li>
+    <li>Depending on your device settings, recognition may happen on-device or on the operating system vendor's servers. In the latter case the audio is handled by that vendor under its own policy: <a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.apple.com/legal/privacy/">Apple</a>.</li>
+    <li>The microphone opens <strong>only</strong> after you tap the microphone button, and closes when you tap it again or leave the app.</li>
+  </ul>
+
+  <h3>Which of the two recognisers Lumos uses</h3>
+  <p>Lumos always prefers the device's <strong>local</strong> recogniser (on Android, <code>createOnDeviceSpeechRecognizer</code>, available from version 12): the model runs on the phone and the audio is not sent anywhere to be transcribed.</p>
+  <p>If that engine is missing or refuses to work, Lumos falls back to the system's default recogniser — <strong>and that one, depending on the device and the language, may send the audio to the vendor's servers.</strong> The fallback exists because on many phones the local model is not installed, and a torch that cannot hear is a broken torch.</p>
+  <p>If you would rather that never happened, turn on <strong>&ldquo;Listen offline only&rdquo;</strong> (tap the LUMOS wordmark, top left). With that setting Lumos uses the local recogniser and nothing else, and where there is none it says it cannot hear rather than taking the network road. It is a guarantee, not a preference: the system recogniser's own &ldquo;prefer offline&rdquo; flag is a request the platform may ignore, which is why Lumos does not rely on it.</p>
+
+  <h2>Advertising</h2>
+  <p>Lumos shows ads through <strong>Google AdMob</strong>. AdMob may collect and process:</p>
+  <ul>
+    <li>the device advertising identifier (Advertising ID / IDFA);</li>
+    <li>IP address and technical device information;</li>
+    <li>ad interaction data.</li>
+  </ul>
+  <p>Google acts as an independent controller for this data. Policy and controls: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></p>
+  <p>You can limit personalised ads from your system settings:</p>
+  <ul>
+    <li><strong>Android</strong> — Settings › Privacy › Ads</li>
+    <li><strong>iOS</strong> — Settings › Privacy &amp; Security › Tracking</li>
+  </ul>
+  <p>In the European Economic Area, the United Kingdom and Switzerland, consent is requested through Google's consent message before personalised ads are shown. You may refuse and keep using the app: you will see non-personalised ads.</p>
+
+  <h2>Data we collect</h2>
+  <p>None. Lumos has no backend, sends no telemetry, uses no analytics and stores no personal data on the device. The only things stored are your preferences — wand core, muted sounds, gestures, &ldquo;Listen offline only&rdquo; — which stay on the phone and are never transmitted.</p>
+
+  <h2>Children</h2>
+  <p>Lumos is not directed at children under 13 and does not knowingly collect data from children.</p>
+
+  <h2>Your rights</h2>
+  <p>Since we process no personal data, we hold nothing to export or delete. For data collected by Google AdMob, those rights are exercised towards Google under its policy. Uninstalling the app ends all collection.</p>
+
+  <h2>Changes</h2>
+  <p>Any change to this policy will be published at this address, with the updated date at the top.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:mindcontact.apps@gmail.com">mindcontact.apps@gmail.com</a></p>
+
+  <footer>Lumos — MindContact</footer>
+</main>
+</body>
+</html>
