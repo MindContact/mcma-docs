@@ -92,4 +92,7 @@ footer {
 }
 
 .lang { margin-bottom: 2.5rem; font-size: 0.9rem; color: var(--ink-dim); }
-.lang a { margin-right: 0.75rem; }
+/* Lo spazio va fra le voci, non appeso al link: sulla pagina italiana la
+   lingua corrente e' uno <strong> e il margine su `a` lasciava "Italiano" e
+   "English" attaccati. */
+.lang > * + * { margin-left: 0.75rem; }

@@ -3,7 +3,10 @@
 Documenti pubblici delle app MindContact: informative privacy, termini e
 qualunque altra pagina che gli store richiedano a un URL raggiungibile.
 
-Pubblicato con GitHub Pages da `main`.
+Pubblicato con GitHub Pages da `main`. La pagina di atterraggio è
+<https://mindcontact.github.io/mcma-docs/> e elenca tutte le app: `index.html`
+e `en/index.html` si scrivono a mano quando nasce un'app, insieme alla riga
+nella tabella qui sotto.
 
 ## Contenuto
 
