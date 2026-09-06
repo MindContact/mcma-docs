@@ -42,6 +42,8 @@ nella tabella qui sotto.
 | Orbit | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-orbit/privacy/en/ |
 | Plafond | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-plafond/privacy/ |
 | Plafond | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-plafond/privacy/en/ |
+| Eject | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-eject/privacy/ |
+| Eject | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-eject/privacy/en/ |
 
 Il sorgente Markdown di ogni pagina è affiancato all'HTML, così il testo resta
 leggibile e diffabile anche fuori dal browser.
