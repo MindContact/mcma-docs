@@ -12,6 +12,12 @@ nella tabella qui sotto.
 
 | App | Documento | URL |
 |---|---|---|
+| Lumos | Pagina dell'app (IT) | https://mindcontact.github.io/mcma-docs/mcma-lumos/ |
+| Lumos | App page (EN) | https://mindcontact.github.io/mcma-docs/mcma-lumos/en/ |
+| Orbit | Pagina dell'app (IT) | https://mindcontact.github.io/mcma-docs/mcma-orbit/ |
+| Orbit | App page (EN) | https://mindcontact.github.io/mcma-docs/mcma-orbit/en/ |
+| Plafond | Pagina dell'app (IT) | https://mindcontact.github.io/mcma-docs/mcma-plafond/ |
+| Plafond | App page (EN) | https://mindcontact.github.io/mcma-docs/mcma-plafond/en/ |
 | Lumos | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-lumos/privacy/ |
 | Lumos | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-lumos/privacy/en/ |
 | Biorhythm | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-biorhythm/privacy/ |
@@ -65,6 +71,12 @@ nella tabella qui sotto.
 
 Il sorgente Markdown di ogni pagina è affiancato all'HTML, così il testo resta
 leggibile e diffabile anche fuori dal browser.
+
+Qualche app ha anche una **pagina di presentazione** — `<repo>/index.html` e
+`<repo>/en/index.html`, con un `style.css` che porta i colori dell'app — perché
+un'app non pubblicata su nessuno store ha comunque bisogno di un indirizzo che
+dica cosa fa. Il foglio di stile della pagina legale resta il suo, dentro
+`privacy/`: le due cose cambiano per motivi diversi.
 
 ## Perché un repo separato
 
