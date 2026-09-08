@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Metronome — Sample-accurate tempo</title>
+<meta name="description" content="A metronome that schedules no beats: it renders one whole bar into a buffer and loops it, so the spacing is accurate to the sample. No permissions.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="../assets/hero.webp" alt="">
+  <div class="hero-inner">
+    <img class="icon" src="../assets/icon.png" width="88" height="88" alt="">
+    <h1>Metronome</h1>
+    <p class="tagline">The tempo you keep, with a sample-accurate click.</p>
+  </div>
+</header>
+<main>
+  <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
+
+  <p class="lede">A metronome is judged on one thing: whether the beats are
+  really evenly spaced. Everything else is decoration around that question.</p>
+
+  <h2>Why the tempo does not drift</h2>
+  <p>This metronome <strong>schedules no beats</strong>. It renders <em>one whole
+  bar</em> into a buffer, with the clicks exactly where they belong, and hands it
+  to the audio engine to loop: from then on the spacing is accurate to the sample,
+  and no timer can be late because the phone is busy doing something else. It is
+  also why there is no audio file in the package — a recorded click would have to
+  be scheduled, and <strong>scheduling is what drifts</strong>.</p>
+
+  <h2>What is in it</h2>
+  <ul>
+    <li><strong>30 to 300 BPM</strong>, with a slider and two buttons for single
+    steps.</li>
+    <li><strong>Bars of 1 to 8 beats</strong>, the first accented: it clicks
+    higher, so a bar can be heard as a bar without counting.</li>
+    <li><strong>Tap the tempo.</strong> Four taps and it goes at that speed — the
+    average of the taps, not the last one, so one clumsy tap does not throw it
+    away.</li>
+    <li><strong>A pendulum</strong> that swings from the same number the sound was
+    rendered from: what you see and what you hear are the same arithmetic.</li>
+    <li><strong>Haptics on the beat</strong>, if you want them, with the accent
+    felt harder.</li>
+    <li><strong>The screen stays on</strong> while it is going.</li>
+    <li>In <strong>English</strong> and <strong>Italian</strong>, following the
+    phone's language.</li>
+  </ul>
+
+  <h2>Your data stays yours</h2>
+  <p>Metronome <strong>asks for no permissions at all</strong>: no account, no
+  sign-up, no servers, and the network is needed only for the ads.</p>
+
+  <h2>How it is paid for</h2>
+  <p>One banner anchored at the bottom, and that is all: no ads while you play, no
+  subscription, no subdivision held hostage.</p>
+
+  <h2>Where to find it</h2>
+  <div class="box">
+    <p>Not on Google Play yet. The link will appear here when it is.</p>
+    <p><a href="../privacy/en/">Privacy policy</a></p>
+  </div>
+
+  <footer>
+    MindContact · <a href="../../en/">All the apps</a> · <a href="../privacy/en/">Privacy policy</a> · <a href="../">Italiano</a>
+  </footer>
+</main>
+</body>
+</html>

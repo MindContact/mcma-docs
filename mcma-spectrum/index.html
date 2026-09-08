@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spectrum — L'analizzatore di spettro</title>
+<meta name="description" content="Spectrum mostra quali frequenze ci sono nella stanza adesso: asse logaritmico, picchi che scendono, congelamento dichiarato. Non registra niente.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="assets/hero.webp" alt="">
+  <div class="hero-inner">
+    <img class="icon" src="assets/icon.png" width="88" height="88" alt="">
+    <h1>Spectrum</h1>
+    <p class="tagline">Analizzatore di spettro: asse logaritmico, picchi, e niente registrazioni.</p>
+  </div>
+</header>
+<main>
+  <p class="lang"><strong>Italiano</strong><a href="en/">English</a></p>
+
+  <p class="lede">Quali frequenze ci sono nella stanza, adesso. Si apre e
+  analizza: niente impostazioni da visitare prima, niente pulsante di avvio —
+  solo lo spettro che si muove con quello che il microfono sente.</p>
+
+  <h2>Cosa fa</h2>
+  <ul>
+    <li><strong>Asse logaritmico, come sente l'orecchio.</strong> Un'ottava
+    occupa la stessa larghezza in basso e in alto, invece di schiacciare tutti i
+    bassi in due pixel — che è il difetto di quasi tutti gli analizzatori da
+    telefono.</li>
+    <li><strong>Il colore dice la frequenza, l'altezza dice il livello.</strong>
+    Due informazioni in un colpo d'occhio invece di una.</li>
+    <li><strong>Picchi che scendono lentamente.</strong> Un battito di mani resta
+    leggibile un attimo dopo essere finito, invece di essere un fotogramma che
+    nessuno vede.</li>
+    <li><strong>La frequenza più forte scritta in chiaro</strong>, in Hz o
+    kHz.</li>
+    <li><strong>Congela l'immagine</strong> per guardarla con calma — e finché è
+    congelata l'app te lo dice, perché quello che vedi non è più la stanza.</li>
+    <li>In <strong>italiano</strong> e in <strong>inglese</strong>, secondo la
+    lingua del telefono.</li>
+  </ul>
+
+  <h2>dBFS, non decibel della stanza</h2>
+  <p>Il livello che vedi è in <strong>dBFS</strong>, cioè relativo al fondo
+  scala del convertitore: dice quanto è forte una frequenza <em>rispetto alle
+  altre</em>, non quanti decibel ci sono nell'aria. Se ti serve quello, quello è
+  un fonometro ed è un'altra app. Confondere le due scale è il modo più veloce
+  per farsi un'idea sbagliata di una stanza, e Spectrum preferisce dirlo.</p>
+
+  <h2>La FFT è scritta a mano, e verificata</h2>
+  <p>Sotto c'è una trasformata di Fourier scritta da zero, con test automatici che
+  la confrontano con suoni sintetici di frequenza nota prima di ogni versione.
+  <strong>Un analizzatore o è creduto o è una decorazione</strong>: se le bande si
+  muovono in modo credibile ma i numeri sono sbagliati, l'app è peggio che
+  inutile.</p>
+
+  <h2>I tuoi dati restano tuoi</h2>
+  <p>Spectrum <strong>non registra</strong>: il suono è analizzato nella memoria
+  del telefono e buttato via, e nessun file viene mai scritto. Niente account,
+  niente posizione, nessun server nostro. I permessi sono due — il microfono e
+  Internet, che serve agli annunci.</p>
+
+  <h2>Come si paga</h2>
+  <p>Con un banner in fondo, lontano dai comandi, e basta: nessun abbonamento,
+  nessuna funzione tenuta in ostaggio.</p>
+
+  <h2>Dove trovarla</h2>
+  <div class="box">
+    <p>Non è ancora su Google Play. Quando ci sarà, il collegamento comparirà
+    qui.</p>
+    <p><a href="privacy/">Informativa sulla privacy</a></p>
+  </div>
+
+  <footer>
+    MindContact · <a href="../">Tutte le app</a> · <a href="privacy/">Informativa privacy</a> · <a href="en/">English</a>
+  </footer>
+</main>
+</body>
+</html>

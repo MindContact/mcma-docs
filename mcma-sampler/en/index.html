@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sampler — Twelve pads with your own packs</title>
+<meta name="description" content="Sampler is a grid of twelve pads and you bring the sounds: a zip with pack.json, twelve audio files and the stickers. No network, no storage permission.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="../assets/hero.webp" alt="">
+  <div class="hero-inner">
+    <img class="icon" src="../assets/icon.png" width="88" height="88" alt="">
+    <h1>Sampler</h1>
+    <p class="tagline">Twelve pads with your own sample packs. Everything stays on the phone.</p>
+  </div>
+</header>
+<main>
+  <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
+
+  <p class="lede">A grid of twelve pads, and you bring the sounds. It opens with
+  a built-in kit — twelve percussion sounds that are <em>computed</em>, not
+  sampled — so it plays the moment it is installed; then you load your own sample
+  packs and the grid becomes yours.</p>
+
+  <ul class="shots">
+    <li><figure>
+      <img src="../assets/shot-1.webp" loading="lazy" alt="The grid of twelve pads with the built-in kit.">
+      <figcaption>The built-in kit is ready: open it and play.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="../assets/shot-2.webp" loading="lazy" alt="A pad lit at the instant of the touch.">
+      <figcaption>The pad lights at the instant of the touch, with no delay.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="../assets/shot-3.webp" loading="lazy" alt="The grid with a loaded sample pack, every pad carrying its sticker.">
+      <figcaption>Load a pack of your own and the pads become whatever you want.</figcaption>
+    </figure></li>
+  </ul>
+
+  <h2>What it does</h2>
+  <ul>
+    <li><strong>Twelve pads sounding when the finger goes down</strong>, not when
+    it lifts.</li>
+    <li><strong>Every pad can carry a sticker</strong>: the picture the pack's
+    author gave it.</li>
+    <li><strong>Switch packs with a tap on the name</strong> at the top.</li>
+    <li><strong>Every hit lights the pad and taps the phone</strong> under the
+    sound.</li>
+    <li>In <strong>English</strong> and <strong>Italian</strong>, following the
+    phone's language.</li>
+  </ul>
+
+  <h2>What a sample pack is</h2>
+  <p>A <strong>zip</strong> holding a <code>pack.json</code>, twelve audio files
+  and — if you like — twelve images. The json says what the pack is called, who
+  made it, and for each pad the name, the description, the sound file and the
+  sticker. Audio: wav, mp3, ogg, m4a, aac. Images: png, jpg, webp. No tool is
+  needed to make one: it is a folder and a text file.</p>
+
+  <h2>Careful with the files it opens</h2>
+  <p>Somebody else made that sample pack, and the app treats it accordingly: it
+  <strong>refuses archives that are too big</strong>, ones that carry paths
+  instead of file names — the trick by which a zip tries to write outside the
+  folder it is opened into — and ones that promise sounds they do not contain.
+  From a pack it does accept, it keeps <strong>only the files the
+  <code>pack.json</code> names</strong>: everything else stays in the zip.</p>
+
+  <h2>Your data stays yours</h2>
+  <p>Sampler <strong>asks for no storage permission</strong>: you pick the file
+  with the system picker, which hands the app that file and nothing else. And
+  <strong>there is no network</strong>: packs are neither downloaded nor
+  uploaded, they stay on the phone. No account, no server of ours.</p>
+
+  <h2>How it is paid for</h2>
+  <p>One banner anchored at the bottom, and that is all: no ads between hits, no
+  subscription, no pack held hostage.</p>
+
+  <h2>Where to find it</h2>
+  <div class="box">
+    <p>Not on Google Play yet. The link will appear here when it is.</p>
+    <p><a href="../privacy/en/">Privacy policy</a></p>
+  </div>
+
+  <footer>
+    MindContact · <a href="../../en/">All the apps</a> · <a href="../privacy/en/">Privacy policy</a> · <a href="../">Italiano</a>
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tuner — The chromatic tuner</title>
+<meta name="description" content="Tuner is a chromatic tuner: note, cents and needle, a 415–466 Hz reference and the tunings for guitar, bass, strings and more. The sound never leaves your phone.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="../assets/hero.webp" alt="">
+  <div class="hero-inner">
+    <img class="icon" src="../assets/icon.png" width="88" height="88" alt="">
+    <h1>Tuner</h1>
+    <p class="tagline">Chromatic tuner: note, cents, needle. The sound never leaves your phone.</p>
+  </div>
+</header>
+<main>
+  <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
+
+  <p class="lede">It opens listening. No instrument to pick, no string to
+  select, no tutorial: play a note and the app tells you which one, and how flat
+  or sharp. The needle moves with the string, with no easing in between.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li><strong>Note, octave and frequency.</strong> "A4 · 440.0 Hz": what you
+    need to tune, and what you need to understand.</li>
+    <li><strong>Cents, with a direction.</strong> Left and blue when flat, right
+    and rose when sharp — the side and the colour say the same thing twice, so
+    you can read it out of the corner of your eye.</li>
+    <li><strong>Inside five cents the measurement becomes a word.</strong> The
+    needle enters the gate and "In tune" appears: that is the answer you opened
+    the app for.</li>
+    <li><strong>Two beats when the string is right</strong>, one short tick when
+    a new one is heard: you tune with your eyes on the peg, not on the
+    screen.</li>
+    <li><strong>The strings drawn on the background vibrate</strong> with what
+    the microphone hears. It is the only honest sign that the app is really
+    listening.</li>
+    <li>In <strong>English</strong> and <strong>Italian</strong>, following the
+    phone's language.</li>
+  </ul>
+
+  <h2>Reference pitch and tunings, for whoever needs them</h2>
+  <ul>
+    <li><strong>Reference from 415 to 466 Hz</strong>: baroque, 432, or an
+    orchestra pulling at 442.</li>
+    <li><strong>Guitar</strong> standard, drop D, half step down, open D, open G,
+    open E, DADGAD.</li>
+    <li><strong>Bass</strong> in 4 and 5 strings, ukulele, violin, viola, cello,
+    mandolin, banjo, Irish bouzouki (GDAD and ADAD).</li>
+    <li><strong>With a tuning chosen the cents change reference</strong>: they
+    are measured against the string you are aiming at rather than the nearest
+    semitone. On a badly flat string those are two different answers, and only
+    one of them is the one you want.</li>
+  </ul>
+  <p>Until you touch anything it stays chromatic at 440 Hz, which is what nine
+  times out of ten is needed.</p>
+
+  <h2>Why a low E does not become the E below</h2>
+  <p>Note detection uses <strong>the YIN algorithm</strong>, which works on the
+  period of the wave rather than the peak of the spectrum: that is why a guitar's
+  low E is not reported as the E an octave below, the classic tuner mistake. The
+  maths is checked by automated tests against synthesised tones before every
+  release.</p>
+
+  <h2>Your data stays yours</h2>
+  <p>Tuner <strong>does not record</strong>: the sound is analysed in the phone's
+  memory and thrown away, and no file is ever written. No account, no location,
+  no server of ours. Three permissions — the microphone to hear the string,
+  Internet for the ads, vibration for the feedback.</p>
+
+  <h2>How it is paid for</h2>
+  <p>A banner at the bottom, away from the controls, and an occasional
+  full-screen ad only after the string is where you wanted it. No subscription,
+  no tuning held hostage.</p>
+
+  <h2>Where to find it</h2>
+  <div class="box">
+    <p>Not on Google Play yet. The link will appear here when it is.</p>
+    <p><a href="../privacy/en/">Privacy policy</a></p>
+  </div>
+
+  <footer>
+    MindContact · <a href="../../en/">All the apps</a> · <a href="../privacy/en/">Privacy policy</a> · <a href="../">Italiano</a>
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,163 @@
+/* La pagina di Tuner, con i colori dell'app: il legno notturno dello strumento e l'ambra dell'ago in accordatura.
+   Chiara se il lettore ha il sistema chiaro. */
+:root {
+  --bg: #0b0906;
+  --bg-soft: #2a1e12;
+  --ink: #d9c7a3;
+  --ink-dim: #8c7f6b;
+  --accent: #f0b429;
+  --rule: rgba(240, 180, 41, 0.24);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #faf6ee;
+    --bg-soft: #ffffff;
+    --ink: #161009;
+    --ink-dim: #6b5f4c;
+    --accent: #8f6100;
+    --rule: rgba(143, 97, 0, 0.24);
+  }
+}
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0 0 4rem;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+main { max-width: 46rem; margin: 0 auto; padding: 0 1.25rem; }
+
+/* Il frontone: la grafica della scheda dello store, per intero e non come
+   sfondo. Alcune di quelle grafiche portano già il nome dell'app disegnato
+   dentro, e metterci sopra un <h1> significava scrivere il nome due volte, una
+   sull'altra. Sta sopra, e il titolo sotto. */
+.hero { padding: 0 0 2rem; margin-bottom: 1rem; text-align: center; }
+
+.banner {
+  display: block;
+  width: 100%;
+  max-height: 13rem;
+  object-fit: cover;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* L'icona sta *sotto* il banner e non a cavallo: quelle grafiche hanno il
+   nome e il claim disegnati dentro, e un'icona appoggiata sopra finiva sempre
+   in mezzo a una parola. */
+.hero-inner {
+  max-width: 46rem;
+  margin: 1.3rem auto 0;
+  padding: 0 1.25rem;
+}
+
+/* Il quadrato con gli angoli tondi è la forma che l'icona ha già sul telefono:
+   ritagliarla in un cerchio la farebbe sembrare l'icona di un'altra app. */
+.hero-inner .icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 22%;
+  border: 1px solid var(--rule);
+  background: var(--bg-soft);
+  display: block;
+  margin: 0 auto 0.9rem;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 300;
+  letter-spacing: 0.18em;
+  font-size: clamp(2rem, 7vw, 3rem);
+  margin: 0 0 0.2em;
+  color: var(--ink);
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+  margin: 2.6rem 0 0.8rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--rule);
+  color: var(--accent);
+}
+
+.tagline { color: var(--ink-dim); font-size: 1rem; margin: 0; }
+.lede { font-size: 1.1rem; }
+
+/* Le schermate: una striscia che scorre da sola sul telefono, una fila sul
+   desktop. Scorre il contenitore, mai la pagina — una pagina che si muove di
+   lato è una pagina rotta. */
+.shots {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 62%;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0.5rem 0 1.2rem;
+  margin: 1.4rem 0 0;
+  list-style: none;
+}
+
+.shots > li { scroll-snap-align: center; margin: 0; }
+
+.shots img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid var(--rule);
+  background: var(--bg-soft);
+}
+
+.shots figcaption {
+  color: var(--ink-dim);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin-top: 0.6rem;
+}
+
+.shots figure { margin: 0; }
+
+@media (min-width: 44rem) {
+  .shots {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    overflow-x: visible;
+  }
+}
+
+/* Il riquadro con la sola cosa che si può fare da questa pagina: leggere
+   l'informativa, e — quando ci sarà — andare allo store. Un blocco e non un
+   bottone, perché non è una pagina di vendita. */
+.box {
+  background: var(--bg-soft);
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  padding: 1rem 1.2rem;
+  margin: 1.4rem 0;
+}
+.box p { margin: 0.4rem 0; }
+
+a { color: var(--accent); overflow-wrap: anywhere; }
+
+ul { padding-left: 1.2rem; }
+li { margin: 0.5rem 0; }
+
+footer {
+  margin-top: 3.5rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-dim);
+  font-size: 0.88rem;
+}
+
+.lang { margin: 0 0 1.6rem; font-size: 0.9rem; color: var(--ink-dim); }
+.lang > * + * { margin-left: 0.75rem; }

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Decibel — The sound level meter</title>
+<meta name="description" content="Decibel measures noise in dB: energy average, last minute, Fast and Slow weightings and the 85 dB line. It is an estimate, and says so.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="../assets/hero.webp" alt="">
+  <div class="hero-inner">
+    <img class="icon" src="../assets/icon.png" width="88" height="88" alt="">
+    <h1>Decibel</h1>
+    <p class="tagline">Sound level meter: dB, energy average, last minute. Sound stays here.</p>
+  </div>
+</header>
+<main>
+  <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
+
+  <p class="lede">It opens measuring. No start button, no settings to visit
+  first: the number is already there, with the word that goes with it and the
+  last minute drawn underneath.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li><strong>The level in dB, and the word that translates it.</strong> Calm,
+    Busy, Loud, Harmful over time: 62 dB means nothing to anyone who does not do
+    this for a living.</li>
+    <li><strong>Minimum, maximum, average and peak</strong> since you last
+    started again.</li>
+    <li><strong>The last minute under the number</strong>, with the 85 dB line
+    always visible: a room is judged by its noise over a while, not at an
+    instant.</li>
+    <li><strong>Fast and Slow</strong>, the two time weightings of real meters —
+    125 ms and 1 s.</li>
+    <li><strong>Above 85 dB</strong> the phone buzzes and the screen turns red:
+    that is the level where prolonged exposure damages hearing.</li>
+    <li>In <strong>English</strong> and <strong>Italian</strong>, following the
+    phone's language.</li>
+  </ul>
+
+  <h2>The average is the energy average, and that is not a detail</h2>
+  <p>Decibel computes <strong>Leq</strong>, the energy average, not the
+  arithmetic mean of the decibels. The difference shows the day somebody slams a
+  door: decibels are a logarithmic scale, and adding them like ordinary numbers
+  means <em>cancelling</em> that door by averaging it with the silence around it.
+  The energy average will not allow that — which is why it is the one the noise
+  exposure standards use.</p>
+
+  <h2>It is an estimate, and that has to be said</h2>
+  <p>A phone microphone <strong>is not a calibrated instrument</strong>, and no
+  app can make it one: it differs between models, compresses loud sounds and has
+  a noise floor of its own. If you have a real meter you can compare and move the
+  calibration, and from then on the scale is yours. What the app will not do is
+  fake a precision the sensor does not have.</p>
+
+  <h2>Your data stays yours</h2>
+  <p>Decibel <strong>does not record</strong>: the sound is analysed in the
+  phone's memory and thrown away, and no file is ever written. No account, no
+  location, no server of ours. Three permissions — the microphone to hear the
+  room, Internet for the ads, vibration for the 85 dB warning.</p>
+
+  <h2>How it is paid for</h2>
+  <p>A banner at the bottom, away from the controls, and an occasional
+  full-screen ad only after a finished measurement. No subscription, no feature
+  held hostage.</p>
+
+  <h2>Where to find it</h2>
+  <div class="box">
+    <p>Not on Google Play yet. The link will appear here when it is.</p>
+    <p><a href="../privacy/en/">Privacy policy</a></p>
+  </div>
+
+  <footer>
+    MindContact · <a href="../../en/">All the apps</a> · <a href="../privacy/en/">Privacy policy</a> · <a href="../">Italiano</a>
+  </footer>
+</main>
+</body>
+</html>

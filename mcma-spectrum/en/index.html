@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spectrum — The spectrum analyser</title>
+<meta name="description" content="Spectrum shows which frequencies are in the room right now: logarithmic axis, falling peak holds, a freeze that announces itself. It records nothing.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="../assets/hero.webp" alt="">
+  <div class="hero-inner">
+    <img class="icon" src="../assets/icon.png" width="88" height="88" alt="">
+    <h1>Spectrum</h1>
+    <p class="tagline">Spectrum analyser: logarithmic axis, peak holds, and nothing recorded.</p>
+  </div>
+</header>
+<main>
+  <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
+
+  <p class="lede">Which frequencies are in the room, right now. It opens
+  analysing: no settings to visit first, no start button — just the spectrum
+  moving with whatever the microphone hears.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li><strong>A logarithmic axis, the way the ear hears.</strong> An octave
+    takes the same width low down as high up, instead of squeezing every bass
+    note into two pixels — the flaw in nearly every phone analyser.</li>
+    <li><strong>Colour says the frequency, height says the level.</strong> Two
+    things at a glance instead of one.</li>
+    <li><strong>Peak marks that fall slowly.</strong> A hand clap is still
+    readable a moment after it ended, instead of being a frame nobody sees.</li>
+    <li><strong>The loudest frequency spelled out</strong>, in Hz or kHz.</li>
+    <li><strong>Freeze the picture</strong> to study it — and while it is frozen
+    the app says so, because what you see is no longer the room.</li>
+    <li>In <strong>English</strong> and <strong>Italian</strong>, following the
+    phone's language.</li>
+  </ul>
+
+  <h2>dBFS, not the decibels of the room</h2>
+  <p>The level you see is in <strong>dBFS</strong>, relative to the converter's
+  full scale: it says how loud a frequency is <em>compared to the others</em>,
+  not how many decibels there are in the air. If that is what you want, that is a
+  sound level meter and a different app. Confusing the two scales is the quickest
+  way to get a room wrong, and Spectrum would rather say so.</p>
+
+  <h2>The FFT is written by hand, and checked</h2>
+  <p>Underneath is a Fourier transform written from scratch, with automated tests
+  comparing it against synthesised tones of known frequency before every release.
+  <strong>An analyser is believed or it is decoration</strong>: if the bands move
+  convincingly but the numbers are wrong, the app is worse than useless.</p>
+
+  <h2>Your data stays yours</h2>
+  <p>Spectrum <strong>does not record</strong>: the sound is analysed in the
+  phone's memory and thrown away, and no file is ever written. No account, no
+  location, no server of ours. Two permissions — the microphone, and Internet for
+  the ads.</p>
+
+  <h2>How it is paid for</h2>
+  <p>A banner at the bottom, away from the controls, and that is all: no
+  subscription, no feature held hostage.</p>
+
+  <h2>Where to find it</h2>
+  <div class="box">
+    <p>Not on Google Play yet. The link will appear here when it is.</p>
+    <p><a href="../privacy/en/">Privacy policy</a></p>
+  </div>
+
+  <footer>
+    MindContact · <a href="../../en/">All the apps</a> · <a href="../privacy/en/">Privacy policy</a> · <a href="../">Italiano</a>
+  </footer>
+</main>
+</body>
+</html>
