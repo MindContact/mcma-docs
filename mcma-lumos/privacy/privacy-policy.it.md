@@ -4,7 +4,7 @@
 
 Lumos è una torcia. Fa una cosa sola e raccoglie il meno possibile per farla.
 
-Titolare del trattamento: MindContact — mindcontact.apps@gmail.com
+Titolare del trattamento: MindContact — privacy@mindcontact.net
 
 ## In breve
 
@@ -109,4 +109,4 @@ con la data di aggiornamento in cima.
 
 ## Contatti
 
-mindcontact.apps@gmail.com
+privacy@mindcontact.net

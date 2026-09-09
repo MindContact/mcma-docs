@@ -4,7 +4,7 @@
 
 Lumos is a torch. It does one thing, and collects as little as possible to do it.
 
-Data controller: MindContact — mindcontact.apps@gmail.com
+Data controller: MindContact — privacy@mindcontact.net
 
 ## In short
 
@@ -107,4 +107,4 @@ date at the top.
 
 ## Contact
 
-mindcontact.apps@gmail.com
+privacy@mindcontact.net

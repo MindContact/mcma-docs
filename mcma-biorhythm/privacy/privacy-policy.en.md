@@ -2,7 +2,7 @@
 
 *Last updated: 4 September 2026*
 
-Data controller: MindContact — mindcontact.apps@gmail.com
+Data controller: MindContact — privacy@mindcontact.net
 
 Biorhythm draws three curves from one date. That date never leaves your phone.
 
@@ -67,4 +67,4 @@ With no account and no backend we hold no data about you: there is nothing to
 ask us to delete, because nothing ever reached us. For data processed by Google
 AdMob, exercise your rights with Google.
 
-Questions: mindcontact.apps@gmail.com
+Questions: privacy@mindcontact.net

@@ -128,7 +128,7 @@ def build(lang: str) -> str:
 {promise}
   </ul>
 
-  <p class="contact">{t['contact']} <a href="mailto:mindcontact.apps@gmail.com">mindcontact.apps@gmail.com</a></p>
+  <p class="contact">{t['contact']} <a href="mailto:support@mindcontact.net">support@mindcontact.net</a></p>
 
   <footer>
     MindContact · <a href="https://github.com/MindContact">github.com/MindContact</a>

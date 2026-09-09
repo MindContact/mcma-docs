@@ -2,7 +2,7 @@
 
 *Ultimo aggiornamento: 4 settembre 2026*
 
-Titolare del trattamento: MindContact — mindcontact.apps@gmail.com
+Titolare del trattamento: MindContact — privacy@mindcontact.net
 
 Biorhythm disegna tre curve a partire da una data. Quella data non lascia mai il
 telefono.
@@ -71,7 +71,7 @@ Non avendo account né backend, non deteniamo dati che ti riguardano: non c'è
 nulla da chiederci di cancellare, perché nulla è mai arrivato a noi. Per i dati
 trattati da Google AdMob, i diritti si esercitano presso Google.
 
-Domande: mindcontact.apps@gmail.com
+Domande: privacy@mindcontact.net
 
 ---
 
