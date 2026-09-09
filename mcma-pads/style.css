@@ -38,11 +38,18 @@ main { max-width: 46rem; margin: 0 auto; padding: 0 1.25rem; }
    sull'altra. Sta sopra, e il titolo sotto. */
 .hero { padding: 0 0 2rem; margin-bottom: 1rem; text-align: center; }
 
+/* La grafica è 1024x500 e ha il nome e il claim disegnati dentro. Tenerla
+   bassa con `max-height` + `object-fit: cover` sembrava innocuo, ma su uno
+   schermo largo il ritaglio partiva proprio dal testo: a 1920px restava una
+   fascia centrale di 208px su 937, senza nome sopra e senza claim sotto, per
+   giunta ingrandita oltre la risoluzione nativa. Si mostra intera, centrata,
+   e non oltre la larghezza della colonna di lettura. */
 .banner {
   display: block;
   width: 100%;
-  max-height: 13rem;
-  object-fit: cover;
+  max-width: 46rem;
+  margin: 0 auto;
+  aspect-ratio: 1024 / 500;
   border-bottom: 1px solid var(--rule);
 }
 
