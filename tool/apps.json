@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "mcma-biorhythm",
+    "name": "Biorhythm",
+    "it": "I cicli fisico, emotivo e intellettivo",
+    "en": "The physical, emotional and intellectual cycles",
+    "published": false
+  },
+  {
+    "slug": "mcma-breathe",
+    "name": "Breathe",
+    "it": "Un cerchio che respira con te",
+    "en": "A circle that breathes with you",
+    "published": false
+  },
+  {
+    "slug": "mcma-compass",
+    "name": "Compass",
+    "it": "La bussola",
+    "en": "The compass",
+    "published": false
+  },
+  {
+    "slug": "mcma-decibel",
+    "name": "Decibel",
+    "it": "Il fonometro",
+    "en": "The sound level meter",
+    "published": false
+  },
+  {
+    "slug": "mcma-eject",
+    "name": "Eject",
+    "it": "L&#x27;acqua fuori dall&#x27;altoparlante",
+    "en": "Water out of the speaker",
+    "published": false
+  },
+  {
+    "slug": "mcma-golden",
+    "name": "Golden",
+    "it": "Alba, tramonto, ora dorata",
+    "en": "Sunrise, sunset, golden hour",
+    "published": false
+  },
+  {
+    "slug": "mcma-level",
+    "name": "Level",
+    "it": "La livella a bolla",
+    "en": "The spirit level",
+    "published": false
+  },
+  {
+    "slug": "mcma-lumos",
+    "name": "Lumos",
+    "it": "La torcia con i comandi vocali",
+    "en": "The torch with voice commands",
+    "published": false
+  },
+  {
+    "slug": "mcma-maze",
+    "name": "Maze",
+    "it": "Il labirinto",
+    "en": "The maze",
+    "published": false
+  },
+  {
+    "slug": "mcma-metronome",
+    "name": "Metronome",
+    "it": "Il tempo, esatto al campione",
+    "en": "The tempo, accurate to the sample",
+    "published": false
+  },
+  {
+    "slug": "mcma-moon",
+    "name": "Moon",
+    "it": "Le fasi lunari",
+    "en": "The lunar phases",
+    "published": false
+  },
+  {
+    "slug": "mcma-morph",
+    "name": "Morph",
+    "it": "La voce su due assi",
+    "en": "Your voice on two axes",
+    "published": false
+  },
+  {
+    "slug": "mcma-orbit",
+    "name": "Orbit",
+    "it": "Le cose da fare che sanno quando e dove",
+    "en": "Reminders that know when and where",
+    "published": false
+  },
+  {
+    "slug": "mcma-pads",
+    "name": "Pads",
+    "it": "La sample pad board",
+    "en": "The sample pad board",
+    "published": false
+  },
+  {
+    "slug": "mcma-plafond",
+    "name": "Plafond",
+    "it": "Il forfettario in tasca",
+    "en": "The Italian flat-rate scheme in your pocket",
+    "published": false
+  },
+  {
+    "slug": "mcma-qibla",
+    "name": "Qibla",
+    "it": "La direzione della Kaaba e gli orari di preghiera",
+    "en": "The direction of the Kaaba and prayer times",
+    "published": false
+  },
+  {
+    "slug": "mcma-reach",
+    "name": "Reach",
+    "it": "Quanto è alto e quanto è lontano",
+    "en": "How tall and how far",
+    "published": false
+  },
+  {
+    "slug": "mcma-recorder",
+    "name": "Recorder",
+    "it": "Il registratore",
+    "en": "The voice recorder",
+    "published": false
+  },
+  {
+    "slug": "mcma-sampler",
+    "name": "Sampler",
+    "it": "I pad con i sample pack caricabili",
+    "en": "Pads with loadable sample packs",
+    "published": false
+  },
+  {
+    "slug": "mcma-sky",
+    "name": "Sky",
+    "it": "La mappa del cielo",
+    "en": "The map of the sky",
+    "published": false
+  },
+  {
+    "slug": "mcma-spectrum",
+    "name": "Spectrum",
+    "it": "L&#x27;analizzatore di spettro",
+    "en": "The spectrum analyser",
+    "published": false
+  },
+  {
+    "slug": "mcma-sprout",
+    "name": "Sprout",
+    "it": "Il calendario dell&#x27;orto e del giardino",
+    "en": "The kitchen garden and the garden, by the calendar",
+    "published": false
+  },
+  {
+    "slug": "mcma-sundial",
+    "name": "Sundial",
+    "it": "L&#x27;ora che tiene il Sole",
+    "en": "The time the Sun keeps",
+    "published": false
+  },
+  {
+    "slug": "mcma-tone",
+    "name": "Tone",
+    "it": "Il generatore di suoni",
+    "en": "The tone generator",
+    "published": false
+  },
+  {
+    "slug": "mcma-tuner",
+    "name": "Tuner",
+    "it": "L&#x27;accordatore cromatico",
+    "en": "The chromatic tuner",
+    "published": false
+  },
+  {
+    "slug": "mcma-wheel",
+    "name": "Wheel",
+    "it": "La ruota che sceglie",
+    "en": "The wheel that decides",
+    "published": false
+  }
+]

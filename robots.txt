@@ -1,0 +1,12 @@
+# Le pagine delle singole app restano fuori dai motori finché l'app non è
+# pubblicata: esistono perché gli store vogliono un'informativa raggiungibile
+# senza login, non perché qualcuno le cerchi su Google.
+#
+# Per accendere un'app: togli il commento alla sua riga Allow qui sotto, e
+# metti "published": true in tool/apps.json, poi rilancia tool/build_home.py.
+# Allow viene prima di Disallow perché la regola più specifica vince.
+
+User-agent: *
+
+# Allow: /mcma-lumos/
+Disallow: /mcma-
