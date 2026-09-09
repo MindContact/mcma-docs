@@ -76,5 +76,5 @@ Domande: mindcontact.apps@gmail.com
 ---
 
 Questo file è il sorgente della pagina pubblicata su
-<https://mindcontact.github.io/mcma-docs/mcma-biorhythm/privacy/>. Le due copie
+<https://mindcontact.app/mcma-biorhythm/privacy/>. Le due copie
 — qui e in `mcma-docs` — si aggiornano insieme, data compresa.
