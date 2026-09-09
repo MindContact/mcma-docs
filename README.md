@@ -112,6 +112,10 @@ nella tabella qui sotto e alla pagina dell'app stessa.
 | Morph | App page (EN) | https://mindcontact.github.io/mcma-docs/mcma-morph/en/ |
 | Morph | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-morph/privacy/ |
 | Morph | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-morph/privacy/en/ |
+| Sprout | Pagina dell'app (IT) | https://mindcontact.github.io/mcma-docs/mcma-sprout/ |
+| Sprout | App page (EN) | https://mindcontact.github.io/mcma-docs/mcma-sprout/en/ |
+| Sprout | Informativa privacy (IT) | https://mindcontact.github.io/mcma-docs/mcma-sprout/privacy/ |
+| Sprout | Privacy policy (EN) | https://mindcontact.github.io/mcma-docs/mcma-sprout/privacy/en/ |
 
 Il sorgente Markdown di ogni pagina è affiancato all'HTML, così il testo resta
 leggibile e diffabile anche fuori dal browser.
