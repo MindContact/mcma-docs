@@ -1,6 +1,6 @@
 # Compass — documenti pubblici
 
-App: **Compass**, La bussola che gira, con la rosa dei venti disegnata dal campo magnetico. Package `io.mindcontact.compass`.
+App: **Compass**, La bussola che gira, con la rosa dei venti disegnata dal campo magnetico. Package `app.mindcontact.compass`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

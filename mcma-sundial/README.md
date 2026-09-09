@@ -1,6 +1,6 @@
 # Sundial — documenti pubblici
 
-App: **Sundial**, L'ora solare e l'ombra che gira, calcolate sul dispositivo. Package `io.mindcontact.sundial`.
+App: **Sundial**, L'ora solare e l'ombra che gira, calcolate sul dispositivo. Package `app.mindcontact.sundial`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

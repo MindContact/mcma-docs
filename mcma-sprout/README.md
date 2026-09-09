@@ -1,6 +1,6 @@
 # Sprout — documenti pubblici
 
-App: **Sprout**, Il calendario dell'orto e del giardino: cosa si semina, si pota, si innesta e si raccoglie, oggi e qui Package `io.mindcontact.sprout`.
+App: **Sprout**, Il calendario dell'orto e del giardino: cosa si semina, si pota, si innesta e si raccoglie, oggi e qui Package `app.mindcontact.sprout`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

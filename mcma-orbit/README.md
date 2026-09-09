@@ -1,6 +1,6 @@
 # Orbit — documenti pubblici
 
-App: **Orbit**, Le cose da fare che sanno quando e dove: si avvicinano da sole. Package `io.mindcontact.orbit`.
+App: **Orbit**, Le cose da fare che sanno quando e dove: si avvicinano da sole. Package `app.mindcontact.orbit`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

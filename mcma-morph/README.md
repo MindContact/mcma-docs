@@ -1,6 +1,6 @@
 # Morph — documenti pubblici
 
-App: **Morph**, Registra la tua voce e deformala: altezza e timbro su un asse continuo, senza rete e senza account. Package `io.mindcontact.morph`.
+App: **Morph**, Registra la tua voce e deformala: altezza e timbro su un asse continuo, senza rete e senza account. Package `app.mindcontact.morph`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

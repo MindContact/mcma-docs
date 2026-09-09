@@ -1,6 +1,6 @@
 # Biorhythm — documenti pubblici
 
-App: **Biorhythm**, I tuoi cicli fisico, emotivo e intellettivo, giorno per giorno. Package `io.mindcontact.biorhythm`.
+App: **Biorhythm**, I tuoi cicli fisico, emotivo e intellettivo, giorno per giorno. Package `app.mindcontact.biorhythm`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

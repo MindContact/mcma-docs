@@ -1,6 +1,6 @@
 # Breathe — documenti pubblici
 
-App: **Breathe**, Un cerchio che respira con te: inspira, trattieni, espira. Package `io.mindcontact.breathe`.
+App: **Breathe**, Un cerchio che respira con te: inspira, trattieni, espira. Package `app.mindcontact.breathe`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

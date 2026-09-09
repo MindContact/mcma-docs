@@ -1,6 +1,6 @@
 # Tuner — documenti pubblici
 
-App: **Tuner**, L'accordatore cromatico, con l'ago che si ferma quando la corda è giusta. Package `io.mindcontact.tuner`.
+App: **Tuner**, L'accordatore cromatico, con l'ago che si ferma quando la corda è giusta. Package `app.mindcontact.tuner`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

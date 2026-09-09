@@ -1,6 +1,6 @@
 # Decibel — documenti pubblici
 
-App: **Decibel**, Il fonometro: quanto è rumoroso qui, in tempo reale. Package `io.mindcontact.decibel`.
+App: **Decibel**, Il fonometro: quanto è rumoroso qui, in tempo reale. Package `app.mindcontact.decibel`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

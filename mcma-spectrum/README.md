@@ -1,6 +1,6 @@
 # Spectrum — documenti pubblici
 
-App: **Spectrum**, L'analizzatore di spettro: quali frequenze ci sono, adesso. Package `io.mindcontact.spectrum`.
+App: **Spectrum**, L'analizzatore di spettro: quali frequenze ci sono, adesso. Package `app.mindcontact.spectrum`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

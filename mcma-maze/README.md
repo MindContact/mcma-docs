@@ -1,6 +1,6 @@
 # Maze — documenti pubblici
 
-App: **Maze**, La pallina nel labirinto: inclina il telefono e portala all'uscita. Package `io.mindcontact.maze`.
+App: **Maze**, La pallina nel labirinto: inclina il telefono e portala all'uscita. Package `app.mindcontact.maze`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

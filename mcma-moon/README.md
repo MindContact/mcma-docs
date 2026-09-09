@@ -1,6 +1,6 @@
 # Moon — documenti pubblici
 
-App: **Moon**, La luna di stasera, disegnata dall'ombra che la attraversa. Package `io.mindcontact.moon`.
+App: **Moon**, La luna di stasera, disegnata dall'ombra che la attraversa. Package `app.mindcontact.moon`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

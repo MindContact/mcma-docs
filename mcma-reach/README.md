@@ -1,6 +1,6 @@
 # Reach — documenti pubblici
 
-App: **Reach**, Quanto è alto? Inquadri la base, poi la cima, e l'app te lo dice. Package `io.mindcontact.reach`.
+App: **Reach**, Quanto è alto? Inquadri la base, poi la cima, e l'app te lo dice. Package `app.mindcontact.reach`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

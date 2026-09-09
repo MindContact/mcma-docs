@@ -1,6 +1,6 @@
 # Plafond — documenti pubblici
 
-App: **Plafond**, Il forfettario in tasca: soglia, tasse e netto reale. Package `io.mindcontact.plafond`.
+App: **Plafond**, Il forfettario in tasca: soglia, tasse e netto reale. Package `app.mindcontact.plafond`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

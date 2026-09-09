@@ -1,6 +1,6 @@
 # Pads — documenti pubblici
 
-App: **Pads**, La griglia di suoni da suonare col dito. Package `io.mindcontact.pads`.
+App: **Pads**, La griglia di suoni da suonare col dito. Package `app.mindcontact.pads`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

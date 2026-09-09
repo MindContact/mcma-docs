@@ -1,6 +1,6 @@
 # Tone — documenti pubblici
 
-App: **Tone**, Il generatore di suoni: seno, quadra, rumore, e uno sweep. Package `io.mindcontact.tone`.
+App: **Tone**, Il generatore di suoni: seno, quadra, rumore, e uno sweep. Package `app.mindcontact.tone`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

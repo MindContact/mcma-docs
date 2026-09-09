@@ -1,6 +1,6 @@
 # Eject — documenti pubblici
 
-App: **Eject**, Espelle l'acqua dall'altoparlante del telefono con uno sweep a bassa frequenza. Package `io.mindcontact.eject`.
+App: **Eject**, Espelle l'acqua dall'altoparlante del telefono con uno sweep a bassa frequenza. Package `app.mindcontact.eject`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

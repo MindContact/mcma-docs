@@ -1,6 +1,6 @@
 # Level — documenti pubblici
 
-App: **Level**, La livella a bolla, con la superficie che si inclina sotto il vetro. Package `io.mindcontact.level`.
+App: **Level**, La livella a bolla, con la superficie che si inclina sotto il vetro. Package `app.mindcontact.level`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

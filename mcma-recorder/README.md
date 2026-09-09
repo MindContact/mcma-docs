@@ -1,6 +1,6 @@
 # Recorder — documenti pubblici
 
-App: **Recorder**, Il registratore: premi, parla, riascolta. Resta tutto sul telefono. Package `io.mindcontact.recorder`.
+App: **Recorder**, Il registratore: premi, parla, riascolta. Resta tutto sul telefono. Package `app.mindcontact.recorder`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

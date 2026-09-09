@@ -1,6 +1,6 @@
 # Golden — documenti pubblici
 
-App: **Golden**, Alba, tramonto, ora dorata e ora blu: il cielo di oggi, dove sei. Package `io.mindcontact.golden`.
+App: **Golden**, Alba, tramonto, ora dorata e ora blu: il cielo di oggi, dove sei. Package `app.mindcontact.golden`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

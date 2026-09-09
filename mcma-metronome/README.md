@@ -1,6 +1,6 @@
 # Metronome — documenti pubblici
 
-App: **Metronome**, Il tempo che tieni, con il click campionato esatto e il pendolo che lo segue. Package `io.mindcontact.metronome`.
+App: **Metronome**, Il tempo che tieni, con il click campionato esatto e il pendolo che lo segue. Package `app.mindcontact.metronome`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

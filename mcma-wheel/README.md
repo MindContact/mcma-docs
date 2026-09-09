@@ -1,6 +1,6 @@
 # Wheel — documenti pubblici
 
-App: **Wheel**, La ruota che sceglie per te: un nome, un turno, una decisione. Package `io.mindcontact.wheel`.
+App: **Wheel**, La ruota che sceglie per te: un nome, un turno, una decisione. Package `app.mindcontact.wheel`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

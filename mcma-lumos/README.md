@@ -1,6 +1,6 @@
 # Lumos — documenti pubblici
 
-App: **Lumos**, torcia con comandi vocali. Package `io.mindcontact.lumos`.
+App: **Lumos**, torcia con comandi vocali. Package `app.mindcontact.lumos`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

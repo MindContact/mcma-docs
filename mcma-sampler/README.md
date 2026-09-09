@@ -1,6 +1,6 @@
 # Sampler — documenti pubblici
 
-App: **Sampler**, Dodici pad, con i tuoi sample pack. Package `io.mindcontact.sampler`.
+App: **Sampler**, Dodici pad, con i tuoi sample pack. Package `app.mindcontact.sampler`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

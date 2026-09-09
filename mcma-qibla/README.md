@@ -1,6 +1,6 @@
 # Qibla — documenti pubblici
 
-App: **Qibla**, La direzione della Mecca e gli orari di preghiera, calcolati sul dispositivo. Package `io.mindcontact.qibla`.
+App: **Qibla**, La direzione della Mecca e gli orari di preghiera, calcolati sul dispositivo. Package `app.mindcontact.qibla`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|

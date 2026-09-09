@@ -1,6 +1,6 @@
 # Sky — documenti pubblici
 
-App: **Sky**, Punta il telefono e guarda: le stelle di adesso, calcolate a bordo. Package `io.mindcontact.sky`.
+App: **Sky**, Punta il telefono e guarda: le stelle di adesso, calcolate a bordo. Package `app.mindcontact.sky`.
 
 | Documento | Pagina | Sorgente |
 |---|---|---|
