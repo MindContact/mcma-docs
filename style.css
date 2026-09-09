@@ -32,7 +32,10 @@ body {
     Helvetica, Arial, sans-serif;
 }
 
-main { max-width: 46rem; margin: 0 auto; }
+/* Le sole pagine che usano questo foglio sono index.html e en/index.html:
+   la griglia delle app vuole più spazio della colonna di testo, e i blocchi
+   di prosa restano stretti da soli (vedi .measure più sotto). */
+main { max-width: 60rem; margin: 0 auto; }
 
 h1 {
   font-family: Georgia, "Times New Roman", serif;
@@ -81,3 +84,115 @@ footer {
    lingua corrente e' uno <strong> e il margine su `a` lasciava "Italiano" e
    "English" attaccati. */
 .lang > * + * { margin-left: 0.75rem; }
+
+/* ---------------------------------------------------------------------------
+   Pagina di apertura. Vive solo in index.html e en/index.html: le pagine
+   legali non usano niente di quanto segue.
+   --------------------------------------------------------------------------- */
+
+.hero { margin: 0 0 3rem; }
+
+.hero h1 {
+  letter-spacing: 0.06em;
+  font-size: clamp(2rem, 7vw, 3.2rem);
+  line-height: 1.15;
+  margin-bottom: 0.5rem;
+}
+
+.hero .lede {
+  font-size: clamp(1.05rem, 2.6vw, 1.2rem);
+  color: var(--ink);
+  max-width: 34rem;
+  margin: 0 0 1.6rem;
+}
+
+/* I tre fatti che valgono per tutte le app: stanno in riga finché ci stanno. */
+.facts {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.6rem;
+  padding: 0;
+  margin: 0;
+}
+
+.facts li {
+  margin: 0;
+  padding: 0.32rem 0.75rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+  background: var(--bg-soft);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.9rem;
+  margin: 1.4rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0.95rem 1rem;
+  background: var(--bg-soft);
+  border: 1px solid var(--rule);
+  border-radius: 0.7rem;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover, .card:focus-within {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+.card img {
+  width: 44px;
+  height: 44px;
+  border-radius: 0.6rem;
+  flex: none;
+}
+
+.card-body { min-width: 0; }
+
+.card h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 1.08rem;
+  letter-spacing: 0.03em;
+  margin: 0 0 0.15rem;
+}
+
+/* Tutta la card porta alla pagina dell'app; i link piccoli restano cliccabili
+   perché stanno sopra il piano dello pseudo-elemento. */
+.card h3 a { text-decoration: none; }
+.card h3 a::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+.card p { margin: 0 0 0.45rem; font-size: 0.9rem; color: var(--ink-dim); }
+
+.card-links { position: relative; z-index: 1; font-size: 0.8rem; color: var(--ink-dim); }
+.card-links a { color: var(--ink-dim); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.card-links a:hover, .card-links a:focus { color: var(--accent); border-bottom-color: var(--accent); }
+.card-links span { opacity: 0.5; margin: 0 0.35rem; }
+
+.promise { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); margin: 1.2rem 0 0; padding: 0; list-style: none; }
+.promise li { margin: 0; }
+.promise strong { display: block; color: var(--accent); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.2rem; }
+.promise span { font-size: 0.9rem; color: var(--ink-dim); }
+
+.contact { margin-top: 2.4rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  .card { transition: none; }
+  .card:hover, .card:focus-within { transform: none; }
+}
+
+/* La riga di testo non segue il contenitore: oltre una certa larghezza si
+   legge peggio. */
+.hero .lede, .updated, .contact, p.measure { max-width: 36rem; }
