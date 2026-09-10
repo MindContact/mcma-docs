@@ -84,6 +84,13 @@
     "published": false
   },
   {
+    "slug": "mcma-mimic",
+    "name": "Mimic",
+    "it": "Guarda la sequenza, poi rifalla",
+    "en": "Watch the sequence, then play it back",
+    "published": false
+  },
+  {
     "slug": "mcma-moon",
     "name": "Moon",
     "it": "Le fasi lunari",

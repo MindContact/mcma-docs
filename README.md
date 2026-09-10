@@ -52,6 +52,10 @@ nella tabella qui sotto e alla pagina dell'app stessa.
 | Metronome | App page (EN) | https://mindcontact.app/mcma-metronome/en/ |
 | Metronome | Informativa privacy (IT) | https://mindcontact.app/mcma-metronome/privacy/ |
 | Metronome | Privacy policy (EN) | https://mindcontact.app/mcma-metronome/privacy/en/ |
+| Mimic | Pagina dell'app (IT) | https://mindcontact.app/mcma-mimic/ |
+| Mimic | App page (EN) | https://mindcontact.app/mcma-mimic/en/ |
+| Mimic | Informativa privacy (IT) | https://mindcontact.app/mcma-mimic/privacy/ |
+| Mimic | Privacy policy (EN) | https://mindcontact.app/mcma-mimic/privacy/en/ |
 | Moon | Pagina dell'app (IT) | https://mindcontact.app/mcma-moon/ |
 | Moon | App page (EN) | https://mindcontact.app/mcma-moon/en/ |
 | Moon | Informativa privacy (IT) | https://mindcontact.app/mcma-moon/privacy/ |
