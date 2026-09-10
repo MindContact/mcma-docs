@@ -14,10 +14,24 @@
     "published": false
   },
   {
+    "slug": "mcma-colmo",
+    "name": "Colmo",
+    "it": "Il bicchiere colmo da portare in fondo al bancone",
+    "en": "The brimful glass to carry to the end of the counter",
+    "published": false
+  },
+  {
     "slug": "mcma-compass",
     "name": "Compass",
     "it": "La bussola",
     "en": "The compass",
+    "published": false
+  },
+  {
+    "slug": "mcma-contraption",
+    "name": "Contraption",
+    "it": "La macchina da montare, pezzo per pezzo",
+    "en": "The machine to build, part by part",
     "published": false
   },
   {
@@ -137,6 +151,13 @@
     "name": "Sky",
     "it": "La mappa del cielo",
     "en": "The map of the sky",
+    "published": false
+  },
+  {
+    "slug": "mcma-slingshot",
+    "name": "Slingshot",
+    "it": "La fionda, la gravità dei pianeti e un bersaglio",
+    "en": "The sling, the planets’ gravity and a target",
     "published": false
   },
   {
