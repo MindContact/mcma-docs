@@ -8,5 +8,5 @@
 
 User-agent: *
 
-# Allow: /mcma-lumos/
+Allow: /mcma-lumos/
 Disallow: /mcma-

@@ -4,9 +4,14 @@ Documenti pubblici delle app MindContact: informative privacy, termini e
 qualunque altra pagina che gli store richiedano a un URL raggiungibile.
 
 Pubblicato con GitHub Pages da `main`. La pagina di atterraggio è
-<https://mindcontact.app/> e elenca tutte le app: `index.html`
-e `en/index.html` si scrivono a mano quando nasce un'app, insieme alla riga
-nella tabella qui sotto e alla pagina dell'app stessa.
+<https://mindcontact.app/> ed elenca le app **già pubblicate**: `index.html` e
+`en/index.html` sono generate da `tool/build_home.py` e non si toccano a mano.
+
+Quando un'app esce su Google Play, in `tool/apps.json` metti `"published":
+true` e aggiungi `"package": "app.mindcontact.<slug>"` — il package fa comparire
+il collegamento a Google Play nella scheda —, togli il commento alla sua riga
+`Allow:` in `robots.txt`, rilancia `python3 tool/build_home.py` e aggiungi la
+riga nella tabella qui sotto.
 
 ## Contenuto
 
@@ -44,6 +49,7 @@ nella tabella qui sotto e alla pagina dell'app stessa.
 | Lumos | App page (EN) | https://mindcontact.app/mcma-lumos/en/ |
 | Lumos | Informativa privacy (IT) | https://mindcontact.app/mcma-lumos/privacy/ |
 | Lumos | Privacy policy (EN) | https://mindcontact.app/mcma-lumos/privacy/en/ |
+| Lumos | Scheda Google Play | https://play.google.com/store/apps/details?id=app.mindcontact.lumos |
 | Maze | Pagina dell'app (IT) | https://mindcontact.app/mcma-maze/ |
 | Maze | App page (EN) | https://mindcontact.app/mcma-maze/en/ |
 | Maze | Informativa privacy (IT) | https://mindcontact.app/mcma-maze/privacy/ |

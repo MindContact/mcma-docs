@@ -67,7 +67,8 @@
     "name": "Lumos",
     "it": "La torcia con i comandi vocali",
     "en": "The torch with voice commands",
-    "published": false
+    "package": "app.mindcontact.lumos",
+    "published": true
   },
   {
     "slug": "mcma-maze",

@@ -37,7 +37,7 @@ STRINGS = {
         promise=[("Non ti viene chiesto chi sei", "Nessuna app crea un account o chiede una registrazione."),
                  ("Quello che calcola resta lì", "Non c'è un server nostro: il lavoro dell'app finisce sul telefono."),
                  ("Quello che esce è scritto", "L'unico dato che lascia il dispositivo è quello di Google AdMob per gli annunci, e ogni informativa lo dice per esteso.")],
-        contact="Scrivici:", privacy="Privacy", other_lang="English"),
+        contact="Scrivici:", privacy="Privacy", play="Google Play", other_lang="English"),
     "en": dict(
         lang="en", css="../style.css", base="../", other='<a href="../">Italiano</a><strong>English</strong>',
         title="MindContact — small apps that do one thing",
@@ -55,7 +55,7 @@ STRINGS = {
         promise=[("Nobody asks who you are", "No app creates an account or asks you to register."),
                  ("What it works out stays there", "There is no server of ours: the app's work ends on the phone."),
                  ("What leaves is written down", "The only data leaving the device is Google AdMob's, for the ads, and every policy spells it out.")],
-        contact="Write to us:", privacy="Privacy", other_lang="Italiano"),
+        contact="Write to us:", privacy="Privacy", play="Google Play", other_lang="Italiano"),
 }
 
 
@@ -67,12 +67,21 @@ def _cards(lang: str, t: dict) -> str:
         page = f"{base}{slug}/en/" if lang == "en" else f"{base}{slug}/"
         privacy = f"{base}{slug}/privacy/en/" if lang == "en" else f"{base}{slug}/privacy/"
         alt = f"{base}{slug}/" if lang == "en" else f"{base}{slug}/en/"
+        # The store link only exists once the app is live: an app can be
+        # published on this page (its policy has to be reachable) before its
+        # listing answers.
+        play = (
+            f'<a href="https://play.google.com/store/apps/details?id={app["package"]}">'
+            f'{t["play"]}</a><span>·</span>'
+            if app.get("package")
+            else ""
+        )
         out.append(f"""    <li class="card">
       <img src="{base}{slug}/assets/icon.png" alt="" width="44" height="44" loading="lazy" decoding="async">
       <div class="card-body">
         <h3><a href="{page}">{app['name']}</a></h3>
         <p>{app[lang]}</p>
-        <p class="card-links"><a href="{privacy}">{t['privacy']}</a><span>·</span><a href="{alt}">{t['other_lang']}</a></p>
+        <p class="card-links">{play}<a href="{privacy}">{t['privacy']}</a><span>·</span><a href="{alt}">{t['other_lang']}</a></p>
       </div>
     </li>""")
     return "\n".join(out)
