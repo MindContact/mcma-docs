@@ -1,4 +1,13 @@
 [
+
+  {
+    "slug": "mcma-agenda",
+    "name": "Agenda",
+    "it": "I prossimi impegni sulla schermata principale",
+    "en": "Your next events on the home screen",
+    "published": false
+  },
+
   {
     "slug": "mcma-biorhythm",
     "name": "Biorhythm",
@@ -6,6 +15,7 @@
     "en": "The physical, emotional and intellectual cycles",
     "published": false
   },
+
   {
     "slug": "mcma-breathe",
     "name": "Breathe",
@@ -13,6 +23,7 @@
     "en": "A circle that breathes with you",
     "published": false
   },
+
   {
     "slug": "mcma-colmo",
     "name": "Colmo",
@@ -20,6 +31,7 @@
     "en": "The brimful glass to carry to the end of the counter",
     "published": false
   },
+
   {
     "slug": "mcma-compass",
     "name": "Compass",
@@ -27,6 +39,7 @@
     "en": "The compass",
     "published": false
   },
+
   {
     "slug": "mcma-contraption",
     "name": "Contraption",
@@ -34,6 +47,7 @@
     "en": "The machine to build, part by part",
     "published": false
   },
+
   {
     "slug": "mcma-decibel",
     "name": "Decibel",
@@ -41,6 +55,7 @@
     "en": "The sound level meter",
     "published": false
   },
+
   {
     "slug": "mcma-eject",
     "name": "Eject",
@@ -48,6 +63,7 @@
     "en": "Water out of the speaker",
     "published": false
   },
+
   {
     "slug": "mcma-golden",
     "name": "Golden",
@@ -55,6 +71,7 @@
     "en": "Sunrise, sunset, golden hour",
     "published": false
   },
+
   {
     "slug": "mcma-level",
     "name": "Level",
@@ -62,6 +79,7 @@
     "en": "The spirit level",
     "published": false
   },
+
   {
     "slug": "mcma-lumos",
     "name": "Lumos",
@@ -70,6 +88,7 @@
     "package": "app.mindcontact.lumos",
     "published": true
   },
+
   {
     "slug": "mcma-maze",
     "name": "Maze",
@@ -77,6 +96,7 @@
     "en": "The maze",
     "published": false
   },
+
   {
     "slug": "mcma-metronome",
     "name": "Metronome",
@@ -84,6 +104,7 @@
     "en": "The tempo, accurate to the sample",
     "published": false
   },
+
   {
     "slug": "mcma-mimic",
     "name": "Mimic",
@@ -91,6 +112,7 @@
     "en": "Watch the sequence, then play it back",
     "published": false
   },
+
   {
     "slug": "mcma-moon",
     "name": "Moon",
@@ -98,6 +120,7 @@
     "en": "The lunar phases",
     "published": false
   },
+
   {
     "slug": "mcma-morph",
     "name": "Morph",
@@ -105,6 +128,7 @@
     "en": "Your voice on two axes",
     "published": false
   },
+
   {
     "slug": "mcma-orbit",
     "name": "Orbit",
@@ -112,6 +136,7 @@
     "en": "Reminders that know when and where",
     "published": false
   },
+
   {
     "slug": "mcma-pads",
     "name": "Pads",
@@ -119,6 +144,7 @@
     "en": "The sample pad board",
     "published": false
   },
+
   {
     "slug": "mcma-plafond",
     "name": "Plafond",
@@ -126,6 +152,7 @@
     "en": "The Italian flat-rate scheme in your pocket",
     "published": false
   },
+
   {
     "slug": "mcma-qibla",
     "name": "Qibla",
@@ -133,6 +160,7 @@
     "en": "The direction of the Kaaba and prayer times",
     "published": false
   },
+
   {
     "slug": "mcma-reach",
     "name": "Reach",
@@ -140,6 +168,7 @@
     "en": "How tall and how far",
     "published": false
   },
+
   {
     "slug": "mcma-recorder",
     "name": "Recorder",
@@ -147,6 +176,7 @@
     "en": "The voice recorder",
     "published": false
   },
+
   {
     "slug": "mcma-sampler",
     "name": "Sampler",
@@ -154,6 +184,7 @@
     "en": "Pads with loadable sample packs",
     "published": false
   },
+
   {
     "slug": "mcma-sky",
     "name": "Sky",
@@ -161,6 +192,7 @@
     "en": "The map of the sky",
     "published": false
   },
+
   {
     "slug": "mcma-slingshot",
     "name": "Slingshot",
@@ -168,6 +200,7 @@
     "en": "The sling, the planets’ gravity and a target",
     "published": false
   },
+
   {
     "slug": "mcma-spectrum",
     "name": "Spectrum",
@@ -175,6 +208,7 @@
     "en": "The spectrum analyser",
     "published": false
   },
+
   {
     "slug": "mcma-sprout",
     "name": "Sprout",
@@ -182,6 +216,7 @@
     "en": "The kitchen garden and the garden, by the calendar",
     "published": false
   },
+
   {
     "slug": "mcma-sundial",
     "name": "Sundial",
@@ -189,6 +224,15 @@
     "en": "The time the Sun keeps",
     "published": false
   },
+
+  {
+    "slug": "mcma-tempo",
+    "name": "Tempo",
+    "it": "L'ora e il meteo sopra il tuo sfondo",
+    "en": "The time and the weather over your wallpaper",
+    "published": false
+  },
+
   {
     "slug": "mcma-tone",
     "name": "Tone",
@@ -196,6 +240,7 @@
     "en": "The tone generator",
     "published": false
   },
+
   {
     "slug": "mcma-tuner",
     "name": "Tuner",
@@ -203,6 +248,7 @@
     "en": "The chromatic tuner",
     "published": false
   },
+
   {
     "slug": "mcma-wheel",
     "name": "Wheel",
@@ -210,4 +256,5 @@
     "en": "The wheel that decides",
     "published": false
   }
+
 ]

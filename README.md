@@ -17,6 +17,10 @@ riga nella tabella qui sotto.
 
 | App | Documento | URL |
 |---|---|---|
+| Agenda | Pagina dell'app (IT) | https://mindcontact.app/mcma-agenda/ |
+| Agenda | App page (EN) | https://mindcontact.app/mcma-agenda/en/ |
+| Agenda | Informativa privacy (IT) | https://mindcontact.app/mcma-agenda/privacy/ |
+| Agenda | Privacy policy (EN) | https://mindcontact.app/mcma-agenda/privacy/en/ |
 | Biorhythm | Pagina dell'app (IT) | https://mindcontact.app/mcma-biorhythm/ |
 | Biorhythm | App page (EN) | https://mindcontact.app/mcma-biorhythm/en/ |
 | Biorhythm | Informativa privacy (IT) | https://mindcontact.app/mcma-biorhythm/privacy/ |
@@ -114,6 +118,10 @@ riga nella tabella qui sotto.
 | Sundial | App page (EN) | https://mindcontact.app/mcma-sundial/en/ |
 | Sundial | Informativa privacy (IT) | https://mindcontact.app/mcma-sundial/privacy/ |
 | Sundial | Privacy policy (EN) | https://mindcontact.app/mcma-sundial/privacy/en/ |
+| Tempo | Pagina dell'app (IT) | https://mindcontact.app/mcma-tempo/ |
+| Tempo | App page (EN) | https://mindcontact.app/mcma-tempo/en/ |
+| Tempo | Informativa privacy (IT) | https://mindcontact.app/mcma-tempo/privacy/ |
+| Tempo | Privacy policy (EN) | https://mindcontact.app/mcma-tempo/privacy/en/ |
 | Tone | Pagina dell'app (IT) | https://mindcontact.app/mcma-tone/ |
 | Tone | App page (EN) | https://mindcontact.app/mcma-tone/en/ |
 | Tone | Informativa privacy (IT) | https://mindcontact.app/mcma-tone/privacy/ |
