@@ -73,6 +73,14 @@
   },
 
   {
+    "slug": "mcma-frame",
+    "name": "Frame",
+    "it": "Le tue foto raccolte per tempo: le raffiche si stringono, i giorni vuoti si aprono",
+    "en": "Your photos gathered by time: bursts draw together, empty days open up",
+    "published": false
+  },
+
+  {
     "slug": "mcma-golden",
     "name": "Golden",
     "it": "Alba, tramonto, ora dorata",
