@@ -23,9 +23,9 @@ STRINGS = {
     "it": dict(
         lang="it", css="style.css", base="", other='<strong>Italiano</strong><a href="en/">English</a>',
         title="MindContact — piccole app che fanno una cosa sola",
-        desc="Trenta app per Android: nessun account, nessun server, i calcoli restano sul telefono.",
+        desc="App per Android che fanno una cosa sola: nessun account, nessun server, i calcoli restano sul telefono.",
         h1="Piccole app che fanno<br>una cosa sola",
-        lede="Trenta strumenti per Android — la bussola, l'accordatore, il fonometro, il calendario dell'orto. Ognuno fa il suo mestiere e basta: si apre e funziona, senza chiedere niente prima.",
+        lede="Uno strumento per mestiere — la bussola, l'accordatore, il fonometro, il calendario dell'orto. Ognuno fa il suo e basta: si apre e funziona, senza chiedere niente prima.",
         facts=["Nessun account", "Nessun server nostro", "Un'informativa per ognuna"],
         soon_h2="Stanno arrivando",
         soon_lede="Le prime app sono in lavorazione e arrivano su Google Play una alla volta. Questa pagina si aggiorna appena la prima è pubblicata: qui sotto comparirà, con la sua pagina e la sua informativa.",
@@ -41,9 +41,9 @@ STRINGS = {
     "en": dict(
         lang="en", css="../style.css", base="../", other='<a href="../">Italiano</a><strong>English</strong>',
         title="MindContact — small apps that do one thing",
-        desc="Thirty Android apps: no account, no server, the work stays on the phone.",
+        desc="Android apps that do one thing: no account, no server, the work stays on the phone.",
         h1="Small apps that do<br>one thing",
-        lede="Thirty tools for Android — the compass, the tuner, the sound level meter, the kitchen garden calendar. Each does its own job and nothing else: it opens and works, without asking for anything first.",
+        lede="One tool per job — the compass, the tuner, the sound level meter, the kitchen garden calendar. Each does its own and nothing else: it opens and works, without asking for anything first.",
         facts=["No account", "No server of ours", "A policy for each one"],
         soon_h2="On their way",
         soon_lede="The first apps are being built, and they reach Google Play one at a time. This page updates as soon as the first one is out: it will appear right here, with its own page and its privacy policy.",

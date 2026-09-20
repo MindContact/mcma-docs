@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digest — I tuoi feed, per categoria, con i tag e la lista da leggere dopo.</title>
+<meta name="description" content="I tuoi feed, per categoria, con i tag e la lista da leggere dopo.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="assets/hero.webp" alt="">
+  <div class="hero-inner">
+    <img class="icon" src="assets/icon.png" width="88" height="88" alt="">
+    <h1>Digest</h1>
+    <p class="tagline">I tuoi feed, per categoria, con i tag e la lista da leggere dopo.</p>
+  </div>
+</header>
+<main>
+  <p class="lang"><strong>Italiano</strong><a href="en/">English</a></p>
+
+  <p class="lede">Si apre sulla lista dei siti che segui, il più nuovo in cima.
+  Ogni articolo porta una barra a sinistra: spessa e verde quello uscito un
+  minuto fa, sottile e spenta quello di ieri sera. L'età non è una data scritta
+  in piccolo da andare a leggere — è il colore della riga, e si vede prima di
+  aver finito di scorrere.</p>
+
+  <p class="lede">Un tocco apre il testo che il feed ha mandato, senza passare
+  dal browser. Uno strisciamento verso sinistra mette l'articolo nella lista
+  <strong>Dopo</strong>, che ne salva una copia sul telefono: resta lì anche
+  quando il sito la toglie o il feed va avanti. Verso destra segna letto, e la
+  riga resta dov'è, perché lo scorrere sia un resoconto di cosa è arrivato e non
+  una coda da svuotare.</p>
+
+  <ul class="shots">
+    <li><figure>
+      <img src="assets/shot-1.webp" loading="lazy" alt="Il flusso di Digest: le righe più recenti hanno una barra verde spessa, quelle di qualche ora fa una linea ambra, le più vecchie una riga sottile e grigia.">
+      <figcaption>Il verde è appena uscito, l'ambra è di stamattina, il grigio è di ieri. Nessuna data da leggere.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="assets/shot-2.webp" loading="lazy" alt="La vista «Dopo»: tre articoli messi da parte, in viola, con la striscia dei tag «elezioni» e «quotidiane» in alto.">
+      <figcaption>Quello che metti da parte è una copia tua, con i suoi tag. Il sito può anche toglierlo.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="assets/shot-3.webp" loading="lazy" alt="Il foglio dei feed: le fonti raccolte sotto le categorie «Notizie» e «Tech», ognuna con quanti articoli non letti ha.">
+      <figcaption>I feed stanno sotto le loro categorie, con quanto c'è da leggere in ciascuna.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="assets/shot-4.webp" loading="lazy" alt="Un articolo aperto: titolo, firma e testo del feed, e in fondo i pulsanti per metterlo da parte, condividerlo o aprirlo nel browser.">
+      <figcaption>Il testo che il feed ha mandato, qui. Il browser si apre solo se glielo chiedi.</figcaption>
+    </figure></li>
+  </ul>
+
+  <h2>Cosa fa</h2>
+  <ul>
+    <li><strong>Trova il feed da sola.</strong> Incolli l'indirizzo del sito e
+    Digest cerca il feed dentro la pagina: RSS, Atom o JSON Feed, come lo serve
+    chi lo pubblica.</li>
+    <li><strong>Categorie</strong>, per tenere il lavoro lontano dalle notizie
+    del mattino. Sono un campo del feed, non una cartella: spostarlo costa un
+    tocco.</li>
+    <li><strong>Tag</strong>, sui feed e sui singoli articoli messi da parte.
+    Quelli del feed dicono di cosa parla la fonte, quelli dell'articolo di cosa
+    parla quel pezzo lì.</li>
+    <li><strong>La lista «Dopo» è fatta di copie.</strong> Non un segnalibro che
+    un giorno porta a una pagina che non c'è più: il testo è sul telefono, e ci
+    resta finché non lo togli tu.</li>
+    <li><strong>Letti e non letti restano in lista.</strong> Un filtro mostra
+    solo i non letti quando serve; il resto del tempo la lista racconta la
+    giornata invece di svuotarsi.</li>
+    <li><strong>Ricerca</strong> fra i titoli e i testi già scaricati, non fra
+    gli indirizzi.</li>
+    <li><strong>OPML in entrata e in uscita.</strong> La lista di feed arriva dal
+    lettore che usavi e se ne va quando vuoi: i tag viaggiano in un attributo
+    nostro che gli altri lettori scavalcano senza rompersi.</li>
+    <li><strong>Aggiornamento discreto.</strong> Al massimo ogni mezz'ora,
+    poche fonti per volta, e a un sito che risponde «non è cambiato niente» si
+    crede: il traffico che l'app fa fare è traffico che qualcuno paga.</li>
+    <li>In <strong>italiano</strong> e in <strong>inglese</strong>, secondo la
+    lingua del telefono.</li>
+  </ul>
+
+  <h2>Le fonti sono tue, e i server pure</h2>
+  <p>Digest è la prima app MCMA che parla con server scelti da chi la usa, e il
+  modo in cui lo fa è la ragione per cui questa pagina esiste. Non c'è un
+  servizio nostro che raccoglie i feed e te li serve masticati: la richiesta
+  parte dal tuo telefono e arriva al sito, in HTTPS, senza cookie fra una volta
+  e l'altra e senza credenziali. Una fonte che esiste solo in HTTP si scarica
+  soltanto se accendi tu l'interruttore, e l'app te lo dice.</p>
+  <p>Le immagini degli articoli stanno quasi sempre su server diversi da quello
+  del feed, spesso di terzi che di mestiere contano chi guarda. Per questo hanno
+  un interruttore loro: finché è spento, Digest non li contatta affatto e mostra
+  il testo.</p>
+
+  <h2>I tuoi dati restano tuoi</h2>
+  <p>Feed, categorie, tag, articoli scaricati, copie messe da parte e segni di
+  lettura sono file sul telefono, e si cancellano disinstallando l'app. Non c'è
+  un account, non c'è un server di Digest: cosa segui e cosa leggi non arriva a
+  noi perché non passa da noi, e non arriva nemmeno all'SDK degli annunci. Fuori
+  dal telefono va quello che ogni sito vede quando gli chiedi il suo feed —
+  l'indirizzo IP e la pagina richiesta — e quello che raccoglie Google AdMob per
+  il banner, spiegato nell'informativa.</p>
+
+  <h2>Come si paga</h2>
+  <p>Con un banner ancorato in fondo, e basta: nessun annuncio dentro
+  l'app, nessun abbonamento, nessuna funzione tenuta in ostaggio.</p>
+
+  <h2>Dove trovarla</h2>
+  <div class="box">
+    <p>Non è ancora su Google Play. Quando ci sarà, il collegamento comparirà
+    qui.</p>
+    <p><a href="privacy/">Informativa sulla privacy</a></p>
+  </div>
+
+  <footer>
+    MindContact · <a href="../">Tutte le app</a> · <a href="privacy/">Informativa privacy</a> · <a href="en/">English</a>
+  </footer>
+</main>
+</body>
+</html>

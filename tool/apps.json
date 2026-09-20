@@ -57,6 +57,14 @@
   },
 
   {
+    "slug": "mcma-digest",
+    "name": "Digest",
+    "it": "I tuoi feed, per categoria, con i tag e la lista per dopo",
+    "en": "Your feeds, by category, with tags and a list for later",
+    "published": false
+  },
+
+  {
     "slug": "mcma-eject",
     "name": "Eject",
     "it": "L&#x27;acqua fuori dall&#x27;altoparlante",

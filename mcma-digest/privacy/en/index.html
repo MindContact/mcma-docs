@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Digest</title>
+<meta name="description" content="Privacy policy for the Digest app.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+  <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
+
+  <h1>Privacy Policy — Digest</h1>
+  <p class="updated">Last updated: 20 September 2026</p>
+
+  <p class="lede">Digest fetches the feeds you chose, straight from the sites that publish them.</p>
+  <p>Data controller: MindContact — <a href="mailto:privacy@mindcontact.net">privacy@mindcontact.net</a></p>
+
+  <h2>In short</h2>
+  <ul>
+    <li>Digest creates <strong>no</strong> account, asks for <strong>no</strong> sign-up, collects <strong>no</strong> name, email or contacts.</li>
+    <li>We run no servers: no app data is ever sent to us, and the feeds you follow <strong>do not pass through us</strong>.</li>
+    <li>The data that leaves the device is what Google AdMob collects, plus what any site sees when you ask it for its feed.</li>
+  </ul>
+
+  <h2>Permissions and what they are for</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Permission</th><th>Why</th><th>What leaves the device</th></tr></thead>
+    <tbody>
+      <tr><td>Internet</td><td>fetching the feeds you added</td><td>the IP address and the address requested, to that source's server</td></tr>
+      <tr><td>Internet</td><td>article images, if you turn them on</td><td>the IP address, to the server hosting the image</td></tr>
+      <tr><td>Internet</td><td>ads</td><td>see “Advertising”</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>The feeds you follow</h2>
+  <p>When you add a feed, or when Digest refreshes it, the request leaves your phone and goes straight to that source's server. There is no server of ours in between: we cannot know what you follow or what you read.</p>
+  <p>That server, like any server a phone connects to, sees the IP address the request comes from, the address you asked for and the app's user agent (the name “Digest” and its version — nothing about your device or about you). What it does with that is written in that source's own privacy policy: it is an independent controller, and a site you chose rather than one we chose.</p>
+  <p>Requests go out over HTTPS. A source that only exists over plain HTTP is fetched only if you turn on the matching switch in the settings, and in that case the traffic to that source travels unencrypted.</p>
+  <p>Digest keeps no cookies between requests, sends no credentials, and follows no redirect outside <code>http</code> and <code>https</code>.</p>
+
+  <h2>Article images</h2>
+  <p>An article's images almost always live on servers other than the feed's. That is why they have a switch of their own in the settings: while it is off, Digest contacts none of those servers and shows the text. With it on, every image loaded tells the server hosting it your IP address.</p>
+
+  <h2>What stays on the phone</h2>
+  <p>Feed addresses, categories, tags, downloaded articles, the ones you set aside and which ones you have read are stored as files on the phone and are removed on uninstall. None of it goes into a log, into diagnostics or into a parameter handed to an SDK.</p>
+  <p>An OPML file you import is read on the phone and sent nowhere. An OPML export goes wherever you save it.</p>
+
+  <h2>Advertising</h2>
+  <p>Digest shows ads through <strong>Google AdMob</strong>. AdMob may collect and process:</p>
+  <ul>
+    <li>the device's advertising identifier (Advertising ID / IDFA);</li>
+    <li>the IP address and technical device information;</li>
+    <li>ad interaction data.</li>
+  </ul>
+  <p>Google processes this data as an independent controller. Policy and options: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></p>
+  <p>You can limit personalised ads from the system settings:</p>
+  <ul>
+    <li><strong>Android</strong> — Settings › Privacy › Ads</li>
+    <li><strong>iOS</strong> — Settings › Privacy &amp; Security › Tracking</li>
+  </ul>
+  <p>In the EEA, the UK and Switzerland, Google's consent message appears on first launch; until it is answered the app requests no ads.</p>
+  <p>The ads do not see what you read: what you follow never leaves the phone towards us or towards the ad SDK.</p>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children under 13 and does not knowingly collect data from them.</p>
+
+  <h2>Your rights</h2>
+  <p>With no account and no backend we hold no data about you and cannot identify you. For data processed by Google AdMob, exercise your rights with Google, using the contacts in its own policy; for data processed by a source you follow, with that source.</p>
+  <p>Questions: <a href="mailto:privacy@mindcontact.net">privacy@mindcontact.net</a></p>
+
+  <h2>Changes</h2>
+  <p>Any change to this policy changes the date at the top of the page. Earlier versions stay in the history of the public repository <a href="https://github.com/MindContact/mcma-docs">mcma-docs</a>.</p>
+
+  <footer>
+    MindContact · Digest · <a href="../">Versione italiana</a>
+  </footer>
+</main>
+</body>
+</html>
