@@ -12,7 +12,7 @@
   <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
 
   <h1>Privacy Policy — Orbit</h1>
-  <p class="updated">Last updated: 8 September 2026</p>
+  <p class="updated">Last updated: 22 September 2026</p>
 
   <p class="lede">Orbit keeps your things to do on your phone, and sends them to nobody.</p>
   <p>Data controller: MindContact — <a href="mailto:privacy@mindcontact.net">privacy@mindcontact.net</a></p>
@@ -30,8 +30,8 @@
     <thead><tr><th>Permission</th><th>Why</th><th>What leaves the device</th></tr></thead>
     <tbody>
       <tr><td>Internet</td><td>ads</td><td>see “Advertising”</td></tr>
-      <tr><td>Notifications</td><td>quick add, reminders, place alerts</td><td>nothing</td></tr>
-      <tr><td>Location (background too)</td><td>only for the places you attach</td><td>nothing</td></tr>
+      <tr><td>Notifications</td><td>quick add and deadline reminders</td><td>nothing</td></tr>
+      <tr><td>Location</td><td>only for the places you attach, and only while the app is open</td><td>nothing</td></tr>
       <tr><td>Internet</td><td>looking up an address</td><td>the address you type, to the system's geocoding service</td></tr>
     </tbody>
   </table>
@@ -55,12 +55,12 @@
   <h2>Notifications and location</h2>
   <p>Orbit asks for two things, and asks <strong>only when they are needed</strong>, never at launch.</p>
   <ul>
-    <li><strong>Notifications</strong> — the first time you add something. They carry the quick add field in the shade, the deadline reminders and the place alerts. If you say no, the app works the same: it just does not tell you anything.</li>
-    <li><strong>Location</strong> — only when you attach a place to a task. The position is read <strong>once</strong>, at that moment, to store the point you are standing on inside that task's file, on the phone. From then on Orbit does not follow you around: it hands the system a geofence (a circle around that point) and it is the system that wakes the app when you cross it. To make that work with the app closed, Android also asks for <strong>background</strong> location.</li>
+    <li><strong>Notifications</strong> — the first time you add something. They carry the quick add field in the shade and the deadline reminders. If you say no, the app works the same: it just does not tell you anything.</li>
+    <li><strong>Location</strong> — only when you attach a place to a task. The position is read <strong>once</strong>, at that moment, to store the point you are standing on inside that task's file, on the phone. From then on Orbit does not follow you around: that point is there to tell how far away you are while the app is open, so a task belonging somewhere weighs more when you are near it. This version does <strong>not</strong> ask for background location and does not warn you when you arrive: with the app closed it reads nothing.</li>
   </ul>
   <h3>Looking a place up by address</h3>
   <p>Besides “Here”, a place can be found by typing an address. In that case — <strong>and only in that case</strong> — the words you type are passed to Android's geocoding service (<code>Geocoder</code>), which is part of the operating system and on most devices is provided by Google: it turns an address into coordinates, and it needs the network to do it. Orbit has no server to send them to and keeps them nowhere else: it gets the results back, you pick one, and the coordinates end up in that task's file on the phone. If you would rather not, “Here” goes through no service at all.</p>
-  <p>The coordinates stay in the task's file with everything else: they are not sent to us, there is no Orbit server, and neither thing reaches the ad network. Take the place off a task and the fence goes with it; revoke the permission and the app stays usable — the places simply stop speaking up.</p>
+  <p>The coordinates stay in the task's file with everything else: they are not sent to us, there is no Orbit server, and neither thing reaches the ad network. Take the place off a task and its coordinates go with it; revoke the permission and the app stays usable — the places simply stop weighing.</p>
 
   <h2>Your things to do</h2>
   <p>What you write in Orbit — the text of each task, its deadline, the place you may attach to it, the names of your lists and the deadline or place you give a whole list — is stored <strong>as files on your device</strong>: one per task, and one for each list that has settings of its own. It is not sent to us or to anyone else: there is no Orbit server, and the app has no account.</p>
