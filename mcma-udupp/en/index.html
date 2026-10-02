@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>udUPp — your Odoo 18 invoices</title>
+<meta name="description" content="Your Odoo 18 invoices: what is still to come in, and what came in.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="../assets/hero.webp" alt="">
+  <div class="hero-inner">
+    <img class="icon" src="../assets/icon.png" width="88" height="88" alt="">
+    <h1>udUPp</h1>
+    <p class="tagline">Your Odoo 18 invoices: what is still to come in, and what came in.</p>
+  </div>
+</header>
+<main>
+  <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
+
+  <p class="lede">It opens on a number: how much you still have to collect.
+  Under it, a bar showing how much of that is already overdue, and the open
+  invoices on your Odoo, most urgent first. Each invoice changes colour on its
+  own as the days pass — green while there is time, amber when the due date is
+  close, coral once it is weeks late — and the phone tells you whom to chase
+  before you read a name.</p>
+
+  <p class="lede">When the transfer lands, tap the invoice, pick the date and
+  press <strong>Mark as paid</strong>: the payment is registered on Odoo the way
+  the web client does it, and the invoice leaves the list as the total goes
+  down.</p>
+
+  <ul class="shots">
+    <li><figure>
+      <img src="../assets/shot-1.webp" loading="lazy" alt="The main screen: 10,370 euros to collect, a red bar for the overdue part, and five invoices edged from coral to green by due date.">
+      <figcaption>The total, the overdue part, and the invoices most urgent first. The colour is the due date.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="../assets/shot-2.webp" loading="lazy" alt="The collected tab: this year's paid invoices, each edged in blue and marked paid.">
+      <figcaption>This year's collected invoices, to check against the bank statement.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="../assets/shot-3.webp" loading="lazy" alt="An invoice 38 days overdue: dates, total, what is still to collect and the button at the bottom.">
+      <figcaption>One invoice: dates, amounts, lines, and the button to mark it paid.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="../assets/shot-4.webp" loading="lazy" alt="The unlock sheet: user and server are already filled in, the app asks for the password only.">
+      <figcaption>It remembers the server and the user. Never the password.</figcaption>
+    </figure></li>
+  </ul>
+
+  <h2>What it does</h2>
+  <ul>
+    <li><strong>To collect</strong>: posted customer invoices, unpaid or partly
+    paid, sorted by how pressing they are — not by date, because a small
+    invoice two months late and a large one due tomorrow are not the same
+    urgency.</li>
+    <li><strong>Collected</strong>: this year's paid invoices, the list you
+    check against the bank.</li>
+    <li><strong>The detail</strong> of every invoice, with its lines.</li>
+    <li><strong>Mark as paid</strong>, with the date you choose. It uses Odoo's
+    own "Register payment" with your default journal: what your accountant
+    expects to find, localisation hooks included.</li>
+    <li><strong>It opens offline too</strong>: the last list stays on the phone.
+    Refreshing it needs the password.</li>
+    <li>In <strong>English</strong> and <strong>Italian</strong>, following the
+    phone's language.</li>
+  </ul>
+
+  <h2>Who it is for</h2>
+  <p>For anyone invoicing with <strong>Odoo 18</strong>, Community or
+  Enterprise, on a server reachable over HTTPS — your own, your accountant's,
+  Odoo.sh. On Odoo Online, external access is available on the Custom plan
+  only.</p>
+
+  <h2>The password is never saved</h2>
+  <p>udUPp is the only MCMA app with a sign-in, and it is yours: the Odoo
+  account you already have, on the server you already have. No account of ours,
+  no server of ours in between — the request goes from the phone to Odoo.</p>
+  <p>The server address and the user name stay on the phone, so next time only
+  the password is asked. The password does not: it lives in memory while the
+  app is open, and goes with it when the system closes it. A lost phone does
+  not hand over your books. <code>http://</code> addresses are refused, because
+  the password would travel in the clear.</p>
+
+  <h2>Your data stays yours</h2>
+  <p>The phone keeps the server, the user and a copy of the invoices on screen;
+  "Sign out and forget" deletes them all. The real invoices live on Odoo and do
+  not pass through us. What leaves the phone is the traffic to your server and
+  what Google AdMob collects for the banner, explained in the privacy
+  policy.</p>
+
+  <h2>How it is paid for</h2>
+  <p>With a banner anchored at the bottom, and a full-screen ad now and then,
+  only after you have marked an invoice as paid — never between the tap and the
+  work. No subscription.</p>
+
+  <h2>Where to get it</h2>
+  <div class="box">
+    <p>Not on Google Play yet. When it is, the link will appear here.</p>
+    <p><a href="../privacy/en/">Privacy policy</a></p>
+  </div>
+
+  <p class="fine">udUPp is not a product of, nor affiliated with, Odoo S.A.
+  Odoo is a trademark of Odoo S.A.</p>
+
+  <footer>
+    MindContact · <a href="../../en/">All apps</a> · <a href="../privacy/en/">Privacy policy</a> · <a href="../">Italiano</a>
+  </footer>
+</main>
+</body>
+</html>
