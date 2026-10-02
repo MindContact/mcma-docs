@@ -9,4 +9,5 @@
 User-agent: *
 
 Allow: /mcma-lumos/
+Allow: /mcma-orbit/
 Disallow: /mcma-

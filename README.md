@@ -78,6 +78,7 @@ riga nella tabella qui sotto.
 | Orbit | App page (EN) | https://mindcontact.app/mcma-orbit/en/ |
 | Orbit | Informativa privacy (IT) | https://mindcontact.app/mcma-orbit/privacy/ |
 | Orbit | Privacy policy (EN) | https://mindcontact.app/mcma-orbit/privacy/en/ |
+| Orbit | Scheda Google Play | https://play.google.com/store/apps/details?id=app.mindcontact.orbit |
 | Pads | Pagina dell'app (IT) | https://mindcontact.app/mcma-pads/ |
 | Pads | App page (EN) | https://mindcontact.app/mcma-pads/en/ |
 | Pads | Informativa privacy (IT) | https://mindcontact.app/mcma-pads/privacy/ |

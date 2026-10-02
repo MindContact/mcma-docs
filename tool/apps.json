@@ -150,7 +150,8 @@
     "name": "Orbit",
     "it": "Le cose da fare che sanno quando e dove",
     "en": "Reminders that know when and where",
-    "published": false
+    "package": "app.mindcontact.orbit",
+    "published": true
   },
 
   {
