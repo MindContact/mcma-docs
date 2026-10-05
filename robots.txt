@@ -10,4 +10,6 @@ User-agent: *
 
 Allow: /mcma-lumos/
 Allow: /mcma-orbit/
+Allow: /mcma-mimic/
+Allow: /mcma-breathe/
 Disallow: /mcma-

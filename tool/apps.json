@@ -18,7 +18,8 @@
     "name": "Breathe",
     "it": "Un cerchio che respira con te",
     "en": "A circle that breathes with you",
-    "published": false
+    "package": "app.mindcontact.breathe",
+    "published": true
   },
   {
     "slug": "mcma-colmo",
@@ -110,7 +111,8 @@
     "name": "Mimic",
     "it": "Guarda la sequenza, poi rifalla",
     "en": "Watch the sequence, then play it back",
-    "published": false
+    "package": "app.mindcontact.mimic",
+    "published": true
   },
   {
     "slug": "mcma-moon",
