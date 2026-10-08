@@ -12,4 +12,8 @@ Allow: /mcma-lumos/
 Allow: /mcma-orbit/
 Allow: /mcma-mimic/
 Allow: /mcma-breathe/
+Allow: /mcma-decibel/
+Allow: /mcma-eject/
+Allow: /mcma-tuner/
+Allow: /mcma-udupp/
 Disallow: /mcma-

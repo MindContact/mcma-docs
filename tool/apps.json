@@ -47,7 +47,8 @@
     "name": "Decibel",
     "it": "Il fonometro",
     "en": "The sound level meter",
-    "published": false
+    "package": "app.mindcontact.decibel",
+    "published": true
   },
   {
     "slug": "mcma-digest",
@@ -61,7 +62,8 @@
     "name": "Eject",
     "it": "L&#x27;acqua fuori dall&#x27;altoparlante",
     "en": "Water out of the speaker",
-    "published": false
+    "package": "app.mindcontact.eject",
+    "published": true
   },
   {
     "slug": "mcma-frame",
@@ -232,14 +234,16 @@
     "name": "Tuner",
     "it": "L&#x27;accordatore cromatico",
     "en": "The chromatic tuner",
-    "published": false
+    "package": "app.mindcontact.tuner",
+    "published": true
   },
   {
     "slug": "mcma-udupp",
     "name": "udUPp",
     "it": "Le fatture del tuo Odoo 18, da incassare e incassate",
     "en": "Your Odoo 18 invoices, to collect and collected",
-    "published": false
+    "package": "app.mindcontact.udupp",
+    "published": true
   },
   {
     "slug": "mcma-wheel",
