@@ -4,7 +4,8 @@
     "name": "Agenda",
     "it": "I prossimi impegni sulla schermata principale",
     "en": "Your next events on the home screen",
-    "published": false
+    "package": "app.mindcontact.agenda",
+    "published": true
   },
   {
     "slug": "mcma-biorhythm",
@@ -220,7 +221,8 @@
     "name": "Tempo",
     "it": "L'ora e il meteo sopra il tuo sfondo",
     "en": "The time and the weather over your wallpaper",
-    "published": false
+    "package": "app.mindcontact.tempo",
+    "published": true
   },
   {
     "slug": "mcma-tone",

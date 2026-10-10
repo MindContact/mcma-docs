@@ -16,4 +16,6 @@ Allow: /mcma-decibel/
 Allow: /mcma-eject/
 Allow: /mcma-tuner/
 Allow: /mcma-udupp/
+Allow: /mcma-tempo/
+Allow: /mcma-agenda/
 Disallow: /mcma-
