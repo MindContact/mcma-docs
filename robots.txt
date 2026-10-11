@@ -18,4 +18,8 @@ Allow: /mcma-tuner/
 Allow: /mcma-udupp/
 Allow: /mcma-tempo/
 Allow: /mcma-agenda/
+Allow: /mcma-biorhythm/
+Allow: /mcma-sprout/
+Allow: /mcma-recorder/
+Allow: /mcma-plafond/
 Disallow: /mcma-

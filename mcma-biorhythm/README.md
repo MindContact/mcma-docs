@@ -8,6 +8,7 @@ App: **Biorhythm**, I tuoi cicli fisico, emotivo e intellettivo, giorno per gior
 | App page (EN) | [en/](https://mindcontact.app/mcma-biorhythm/en/) | [`en/index.html`](en/index.html) |
 | Informativa privacy (IT) | [privacy/](https://mindcontact.app/mcma-biorhythm/privacy/) | [`privacy/privacy-policy.it.md`](privacy/privacy-policy.it.md) |
 | Privacy policy (EN) | [privacy/en/](https://mindcontact.app/mcma-biorhythm/privacy/en/) | [`privacy/privacy-policy.en.md`](privacy/privacy-policy.en.md) |
+| Scheda Google Play | [play.google.com](https://play.google.com/store/apps/details?id=app.mindcontact.biorhythm) | — |
 
 Aggiornando un documento, cambia anche la data in cima alla pagina: gli store
 la usano per capire se l'informativa è corrente.

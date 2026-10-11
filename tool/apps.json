@@ -12,7 +12,8 @@
     "name": "Biorhythm",
     "it": "I cicli fisico, emotivo e intellettivo",
     "en": "The physical, emotional and intellectual cycles",
-    "published": false
+    "package": "app.mindcontact.biorhythm",
+    "published": true
   },
   {
     "slug": "mcma-breathe",
@@ -151,7 +152,8 @@
     "name": "Plafond",
     "it": "Il forfettario in tasca",
     "en": "The Italian flat-rate scheme in your pocket",
-    "published": false
+    "package": "app.mindcontact.plafond",
+    "published": true
   },
   {
     "slug": "mcma-qibla",
@@ -172,7 +174,8 @@
     "name": "Recorder",
     "it": "Il registratore",
     "en": "The voice recorder",
-    "published": false
+    "package": "app.mindcontact.recorder",
+    "published": true
   },
   {
     "slug": "mcma-sampler",
@@ -207,7 +210,8 @@
     "name": "Sprout",
     "it": "Il calendario dell&#x27;orto e del giardino",
     "en": "The kitchen garden and the garden, by the calendar",
-    "published": false
+    "package": "app.mindcontact.sprout",
+    "published": true
   },
   {
     "slug": "mcma-sundial",
