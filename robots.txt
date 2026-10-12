@@ -22,4 +22,7 @@ Allow: /mcma-biorhythm/
 Allow: /mcma-sprout/
 Allow: /mcma-recorder/
 Allow: /mcma-plafond/
+Allow: /mcma-metronome/
+Allow: /mcma-reach/
+Allow: /mcma-tone/
 Disallow: /mcma-

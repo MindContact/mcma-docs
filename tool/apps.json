@@ -108,7 +108,8 @@
     "name": "Metronome",
     "it": "Il tempo, esatto al campione",
     "en": "The tempo, accurate to the sample",
-    "published": false
+    "package": "app.mindcontact.metronome",
+    "published": true
   },
   {
     "slug": "mcma-mimic",
@@ -167,7 +168,8 @@
     "name": "Reach",
     "it": "Quanto è alto e quanto è lontano",
     "en": "How tall and how far",
-    "published": false
+    "package": "app.mindcontact.reach",
+    "published": true
   },
   {
     "slug": "mcma-recorder",
@@ -233,7 +235,8 @@
     "name": "Tone",
     "it": "Il generatore di suoni",
     "en": "The tone generator",
-    "published": false
+    "package": "app.mindcontact.tone",
+    "published": true
   },
   {
     "slug": "mcma-tuner",
