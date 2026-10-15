@@ -35,7 +35,8 @@
     "name": "Compass",
     "it": "La bussola",
     "en": "The compass",
-    "published": false
+    "package": "app.mindcontact.compass",
+    "published": true
   },
   {
     "slug": "mcma-contraption",
@@ -86,7 +87,8 @@
     "name": "Level",
     "it": "La livella a bolla",
     "en": "The spirit level",
-    "published": false
+    "package": "app.mindcontact.level",
+    "published": true
   },
   {
     "slug": "mcma-lumos",
@@ -124,7 +126,8 @@
     "name": "Moon",
     "it": "Le fasi lunari",
     "en": "The lunar phases",
-    "published": false
+    "package": "app.mindcontact.moon",
+    "published": true
   },
   {
     "slug": "mcma-morph",
@@ -146,7 +149,8 @@
     "name": "Pads",
     "it": "La sample pad board",
     "en": "The sample pad board",
-    "published": false
+    "package": "app.mindcontact.pads",
+    "published": true
   },
   {
     "slug": "mcma-plafond",
@@ -259,6 +263,7 @@
     "name": "Wheel",
     "it": "La ruota che sceglie",
     "en": "The wheel that decides",
-    "published": false
+    "package": "app.mindcontact.wheel",
+    "published": true
   }
 ]

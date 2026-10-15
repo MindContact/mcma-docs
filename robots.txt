@@ -25,4 +25,9 @@ Allow: /mcma-plafond/
 Allow: /mcma-metronome/
 Allow: /mcma-reach/
 Allow: /mcma-tone/
+Allow: /mcma-compass/
+Allow: /mcma-level/
+Allow: /mcma-moon/
+Allow: /mcma-wheel/
+Allow: /mcma-pads/
 Disallow: /mcma-

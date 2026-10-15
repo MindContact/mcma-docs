@@ -8,6 +8,7 @@ App: **Compass**, La bussola che gira, con la rosa dei venti disegnata dal campo
 | App page (EN) | [en/](https://mindcontact.app/mcma-compass/en/) | [`en/index.html`](en/index.html) |
 | Informativa privacy (IT) | [privacy/](https://mindcontact.app/mcma-compass/privacy/) | [`privacy/privacy-policy.it.md`](privacy/privacy-policy.it.md) |
 | Privacy policy (EN) | [privacy/en/](https://mindcontact.app/mcma-compass/privacy/en/) | [`privacy/privacy-policy.en.md`](privacy/privacy-policy.en.md) |
+| Scheda Google Play | [play.google.com](https://play.google.com/store/apps/details?id=app.mindcontact.compass) | — |
 
 Aggiornando un documento, cambia anche la data in cima alla pagina: gli store
 la usano per capire se l'informativa è corrente. Il sorgente vive anche in
