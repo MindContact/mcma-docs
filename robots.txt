@@ -30,4 +30,5 @@ Allow: /mcma-level/
 Allow: /mcma-moon/
 Allow: /mcma-wheel/
 Allow: /mcma-pads/
+Allow: /mcma-maze/
 Disallow: /mcma-

@@ -103,7 +103,8 @@
     "name": "Maze",
     "it": "Il labirinto",
     "en": "The maze",
-    "published": false
+    "package": "app.mindcontact.maze",
+    "published": true
   },
   {
     "slug": "mcma-metronome",

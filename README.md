@@ -65,6 +65,7 @@ riga nella tabella qui sotto.
 | Maze | App page (EN) | https://mindcontact.app/mcma-maze/en/ |
 | Maze | Informativa privacy (IT) | https://mindcontact.app/mcma-maze/privacy/ |
 | Maze | Privacy policy (EN) | https://mindcontact.app/mcma-maze/privacy/en/ |
+| Maze | Scheda Google Play | https://play.google.com/store/apps/details?id=app.mindcontact.maze |
 | Metronome | Pagina dell'app (IT) | https://mindcontact.app/mcma-metronome/ |
 | Metronome | App page (EN) | https://mindcontact.app/mcma-metronome/en/ |
 | Metronome | Informativa privacy (IT) | https://mindcontact.app/mcma-metronome/privacy/ |
