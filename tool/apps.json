@@ -80,7 +80,8 @@
     "name": "Golden",
     "it": "Alba, tramonto, ora dorata",
     "en": "Sunrise, sunset, golden hour",
-    "published": false
+    "package": "app.mindcontact.golden",
+    "published": true
   },
   {
     "slug": "mcma-level",
@@ -135,7 +136,8 @@
     "name": "Morph",
     "it": "La voce su due assi",
     "en": "Your voice on two axes",
-    "published": false
+    "package": "app.mindcontact.morph",
+    "published": true
   },
   {
     "slug": "mcma-orbit",
@@ -210,7 +212,8 @@
     "name": "Spectrum",
     "it": "L&#x27;analizzatore di spettro",
     "en": "The spectrum analyser",
-    "published": false
+    "package": "app.mindcontact.spectrum",
+    "published": true
   },
   {
     "slug": "mcma-sprout",

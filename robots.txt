@@ -31,4 +31,7 @@ Allow: /mcma-moon/
 Allow: /mcma-wheel/
 Allow: /mcma-pads/
 Allow: /mcma-maze/
+Allow: /mcma-morph/
+Allow: /mcma-golden/
+Allow: /mcma-spectrum/
 Disallow: /mcma-
