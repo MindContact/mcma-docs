@@ -1,0 +1,83 @@
+/* Stile condiviso delle pagine legali MCMA. Scuro di default, segue la
+   preferenza di sistema del lettore. I colori sono variabili: un'app con una
+   palette diversa cambia solo il blocco :root. */
+:root {
+  --bg: #0b0f23;
+  --bg-soft: #141a3a;
+  --ink: #ede7da;
+  --ink-dim: #9a93a8;
+  --accent: #ffc24b;
+  --rule: rgba(255, 194, 75, 0.22);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #fdfaf3;
+    --bg-soft: #fff;
+    --ink: #241528;
+    --ink-dim: #6b5a2a;
+    --accent: #b3730a;
+    --rule: rgba(179, 115, 10, 0.25);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 3rem 1.25rem 5rem;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+main { max-width: 46rem; margin: 0 auto; }
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 300;
+  letter-spacing: 0.14em;
+  font-size: clamp(1.8rem, 6vw, 2.6rem);
+  margin: 0 0 0.35em;
+  color: var(--ink);
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+  margin: 2.6rem 0 0.8rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--rule);
+  color: var(--accent);
+}
+
+.updated { color: var(--ink-dim); font-size: 0.9rem; margin: 0 0 2rem; }
+.lede { font-size: 1.05rem; }
+
+a { color: var(--accent); overflow-wrap: anywhere; }
+
+ul { padding-left: 1.2rem; }
+li { margin: 0.4rem 0; }
+
+.table-wrap { overflow-x: auto; margin: 1.2rem 0; }
+
+table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: 0.94rem; }
+th, td { text-align: left; padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { color: var(--accent); font-weight: 600; }
+
+footer {
+  margin-top: 3.5rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-dim);
+  font-size: 0.88rem;
+}
+
+.lang { margin-bottom: 2.5rem; font-size: 0.9rem; color: var(--ink-dim); }
+/* Lo spazio va fra le voci, non appeso al link: sulla pagina italiana la
+   lingua corrente e' uno <strong> e il margine su `a` lasciava "Italiano" e
+   "English" attaccati. */
+.lang > * + * { margin-left: 0.75rem; }
