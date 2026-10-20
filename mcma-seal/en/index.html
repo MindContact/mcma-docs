@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seal — Your verification codes, encrypted and yours</title>
+<meta name="description" content="Seal generates two-step verification codes, keeps them encrypted under a passphrase of yours and shares them without accounts: a group is a folder you sync.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="../assets/hero.webp" alt="">
+  <div class="hero-inner">
+    <img class="icon" src="../assets/icon.png" width="88" height="88" alt="">
+    <h1>Seal</h1>
+    <p class="tagline">Two-step verification codes, encrypted and yours. No account.</p>
+  </div>
+</header>
+<main>
+  <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
+
+  <p class="lede">Seal does what Authy and Google Authenticator do: it
+  generates the six-digit codes services ask for after the password. But the
+  secrets behind them live in files <strong>encrypted with a passphrase of
+  yours</strong>, and they go through no server: not ours, not anyone's.</p>
+
+  <p class="lede">The first screen is the codes. One tap copies them, and after
+  thirty seconds they leave the clipboard. The seal at the top marks the time
+  of the window, and the codes warm towards amber as they are about to change:
+  a glance tells you whether to wait for the next one.</p>
+
+  <ul class="shots">
+    <li><figure>
+      <img src="../assets/shot-1.webp" loading="lazy" alt="Seal's codes: three private ones and a FortiToken in the shared group Lavoro.">
+      <figcaption>Your codes, apart from those of the groups you share.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="../assets/shot-2.webp" loading="lazy" alt="The FortiToken form: token serial number and activation code.">
+      <figcaption>FortiTokens issued for third-party apps: serial number and activation code.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="../assets/shot-3.webp" loading="lazy" alt="The sheet of the Lavoro group: the folder to share, change passphrase, remove someone, stop sharing.">
+      <figcaption>A group is a folder with its own passphrase, carried by the sync app you already use.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="../assets/shot-4.webp" loading="lazy" alt="Settings: fingerprint lock, name in groups, passphrase, shared groups and folder.">
+      <figcaption>Fingerprint at opening, on by default. Everything else lives here.</figcaption>
+    </figure></li>
+  </ul>
+
+  <h2>What it does</h2>
+  <ul>
+    <li><strong>Standard TOTP and HOTP codes</strong>, 6 or 8 digits, SHA1,
+    SHA256 or SHA512: Google's, Microsoft's, GitHub's, banks' and nearly
+    everyone else's.</li>
+    <li><strong>Added by scanning the service's QR</strong>, pasting the
+    <code>otpauth://</code> link, or typing the key.</li>
+    <li><strong>From Google Authenticator</strong> in one go: its export QR
+    carries up to ten codes at a time.</li>
+    <li><strong>FortiToken</strong>: works when your administrator issues the
+    token for third-party apps (FortiAuthenticator 6.6.3 or later).</li>
+    <li>In <strong>English</strong> and <strong>Italian</strong>, following the
+    phone's language.</li>
+  </ul>
+
+  <h2>Really encrypted</h2>
+  <p>Each code is a file encrypted with a random key, and that key is encrypted
+  with your passphrase. <strong>The passphrase is stored nowhere</strong>: you
+  type it once, and the phone keeps the opened key in its Keystore, behind your
+  fingerprint. You type it again only on a new phone.</p>
+  <p>The other side of it must be said plainly: <strong>if you lose both the
+  passphrase and the phone, the codes are lost.</strong> There is no SMS
+  recovery, because there is nobody who could perform one. Write it on paper
+  and keep it with your documents.</p>
+
+  <h2>Shared without accounts</h2>
+  <p>The same codes on two phones, or at the office between colleagues: a
+  <strong>group</strong> is a subfolder with its own passphrase. You hand over
+  the folder with what you already use — Syncthing, Mega, Drive — and say the
+  passphrase out loud, or on paper. Whoever receives the group sees it locked
+  until they type it.</p>
+  <p>The sync server only ever holds encrypted files: whoever hosts them sees
+  how many there are and the group's name, not the codes. To remove someone
+  from a group, Seal makes a new key, rewrites the codes with it, and you tell
+  the new passphrase only to who stays.</p>
+
+  <h2>Coming from Authy</h2>
+  <p>Authy does not let you export your codes. Moving to Seal means
+  re-enabling two-step verification on each service, one at a time: turn it
+  off, turn it on, scan the QR with Seal. Tedious once, and then the codes are
+  yours.</p>
+
+  <h2>How it is paid for</h2>
+  <p>With a banner anchored at the bottom, and that is all: no full-screen ads,
+  because whoever opens Seal is logging in with the clock running. Neither the
+  codes nor their names reach the ad network.</p>
+
+  <h2>Where to get it</h2>
+  <div class="box">
+    <p>Coming soon to Google Play. Requires Android 7 or later.</p>
+    <p><a href="../privacy/en/">Privacy policy</a></p>
+  </div>
+
+  <footer>
+    MindContact · <a href="../../en/">All apps</a> · <a href="../privacy/en/">Privacy policy</a> · <a href="../">Italiano</a>
+  </footer>
+</main>
+</body>
+</html>

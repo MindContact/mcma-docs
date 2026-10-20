@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informativa sulla privacy — Seal</title>
+<meta name="description" content="Informativa sulla privacy dell&#x27;app Seal.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p class="lang"><strong>Italiano</strong><a href="en/">English</a></p>
+  <h1>Informativa sulla privacy — Seal</h1>
+  <p class="updated">Ultimo aggiornamento: 20 ottobre 2026</p>
+
+  <p>Titolare del trattamento: MindContact — <a href="mailto:privacy@mindcontact.net">privacy@mindcontact.net</a></p>
+
+  <h2>In breve</h2>
+  <ul>
+    <li>Seal non crea account, non chiede registrazione, non raccoglie nome, email o rubrica.</li>
+    <li>Non abbiamo server: nessun codice, nessun segreto e nessuna passphrase viene inviato a noi.</li>
+    <li>I codici sono salvati <strong>cifrati</strong>, anche sul telefono. La passphrase che li protegge non viene salvata da nessuna parte.</li>
+    <li>L'unico dato che lascia il dispositivo per opera dell'app è quello raccolto da Google AdMob.</li>
+  </ul>
+
+  <h2>Permessi e a cosa servono</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Permesso</th><th>Perché</th><th>Cosa lascia il dispositivo</th></tr></thead>
+    <tbody>
+      <tr><td>Fotocamera</td><td>inquadrare il QR di un servizio; le immagini sono analizzate sul telefono e non vengono salvate</td><td>niente</td></tr>
+      <tr><td>Impronta o blocco schermo</td><td>aprire l'app; la verifica la fa Android, Seal riceve solo «sì» o «no»</td><td>niente</td></tr>
+      <tr><td>Internet</td><td>annunci</td><td>vedi «Pubblicità»</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Seal <strong>non</strong> chiede l'accesso alla memoria, alle foto, ai contatti né alla posizione.</p>
+
+  <h2>I tuoi codici</h2>
+  <p>I segreti dei codici di verifica — con il nome del servizio e dell'account — sono salvati come <strong>file cifrati</strong>, uno per codice, in una cartella del telefono (<code>Android/media/app.mindcontact.seal</code>). Ogni file è cifrato con XChaCha20-Poly1305 con una chiave casuale; quella chiave è a sua volta cifrata con una chiave ricavata dalla tua passphrase (Argon2id).</p>
+  <p><strong>La passphrase non viene mai salvata</strong>: né sul telefono, né altrove. Sul telefono resta solo la chiave già aperta, custodita dal Keystore di Android, così che l'app si apra con l'impronta senza chiederti la passphrase ogni volta. Senza la passphrase, i file nella cartella non si possono leggere — nemmeno da noi, che non li riceviamo comunque.</p>
+  <p><strong>Se perdi la passphrase e il telefono, i codici sono persi.</strong> Non esiste un recupero, perché non esiste nessuno che possa farlo.</p>
+
+  <h2>La cartella e la condivisione</h2>
+  <p>La cartella dei codici è leggibile da altre app con accesso ai file multimediali, e può essere copiata da un servizio di sincronizzazione che usi già (per esempio Syncthing, Mega o Drive), fra i tuoi dispositivi o verso altre persone. A copiarla è quel servizio, con le sue condizioni e la sua informativa: Seal si limita a scrivere i file. Chi ospita i file vede quanti sono, quando cambiano e il nome dei gruppi condivisi; non ne vede il contenuto.</p>
+  <p>Un <strong>gruppo condiviso</strong> è una sottocartella con una passphrase sua, che comunichi tu alle altre persone. Chi ha quella passphrase vede e può usare i codici del gruppo. Il nome che scrivi nelle impostazioni accompagna, dentro i file cifrati, i codici che aggiungi a un gruppo.</p>
+  <p>I codici eliminati restano nella cartella come segnaposto cifrati per trenta giorni — serve a impedire che un altro dispositivo li faccia riapparire — e poi spariscono.</p>
+
+  <h2>Appunti</h2>
+  <p>Quando tocchi un codice, Seal lo copia negli appunti segnandolo come dato sensibile (su Android 13 e successivi non compare nell'anteprima) e lo cancella dopo 30 secondi, se nel frattempo non hai copiato altro.</p>
+
+  <h2>Pubblicità</h2>
+  <p>Seal mostra un banner tramite Google AdMob, che può raccogliere l'identificativo pubblicitario, l'indirizzo IP, informazioni tecniche sul dispositivo e i dati di interazione con gli annunci. Google li tratta come titolare autonomo: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></p>
+  <p>Nello Spazio economico europeo, nel Regno Unito e in Svizzera, al primo avvio compare il messaggio di consenso di Google: fino alla risposta l'app non richiede alcun annuncio. Né i codici né i loro nomi arrivano alla rete pubblicitaria.</p>
+
+  <h2>Dati che restano sul dispositivo</h2>
+  <p>Le preferenze dell'app (blocco con impronta, il nome per i gruppi, un identificativo casuale del dispositivo generato in locale) restano sul dispositivo. Seal è escluso dal backup di Google e dal trasferimento fra dispositivi.</p>
+  <p><strong>Disinstallando Seal, Android cancella anche la cartella dei codici.</strong> Le copie che un servizio di sincronizzazione ha già portato altrove restano lì, cifrate: su un altro telefono si aprono con la passphrase.</p>
+
+  <h2>Minori</h2>
+  <p>L'app non è rivolta a minori di 13 anni.</p>
+
+  <h2>I tuoi diritti</h2>
+  <p>Non avendo account né backend, non deteniamo dati che ti riguardano. Per i dati trattati da Google AdMob, i diritti si esercitano presso Google.</p>
+  <p>Domande: <a href="mailto:privacy@mindcontact.net">privacy@mindcontact.net</a></p>
+
+  <footer>
+    MindContact · <a href="../">Seal</a> · <a href="en/">English version</a>
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Seal</title>
+<meta name="description" content="Privacy policy of the Seal app.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+  <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
+  <h1>Privacy policy — Seal</h1>
+  <p class="updated">Last updated: 20 October 2026</p>
+
+  <p>Data controller: MindContact — <a href="mailto:privacy@mindcontact.net">privacy@mindcontact.net</a></p>
+
+  <h2>In short</h2>
+  <ul>
+    <li>Seal creates no account, asks for no registration, collects no name, email or contacts.</li>
+    <li>We have no servers: no code, no secret and no passphrase is ever sent to us.</li>
+    <li>Your codes are stored <strong>encrypted</strong>, on the phone too. The passphrase that protects them is not stored anywhere.</li>
+    <li>The only data that leaves the device because of the app is what Google AdMob collects.</li>
+  </ul>
+
+  <h2>Permissions and what they are for</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Permission</th><th>Why</th><th>What leaves the device</th></tr></thead>
+    <tbody>
+      <tr><td>Camera</td><td>scanning a service's QR; frames are analysed on the phone and never saved</td><td>nothing</td></tr>
+      <tr><td>Fingerprint or screen lock</td><td>opening the app; Android does the check, Seal only gets "yes" or "no"</td><td>nothing</td></tr>
+      <tr><td>Internet</td><td>ads</td><td>see "Advertising"</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Seal does <strong>not</strong> ask for access to storage, photos, contacts or location.</p>
+
+  <h2>Your codes</h2>
+  <p>The secrets of your verification codes — with the service and account names — are stored as <strong>encrypted files</strong>, one per code, in a folder on the phone (<code>Android/media/app.mindcontact.seal</code>). Each file is encrypted with XChaCha20-Poly1305 under a random key; that key is in turn encrypted with a key derived from your passphrase (Argon2id).</p>
+  <p><strong>The passphrase is never stored</strong>: not on the phone, not anywhere else. The phone keeps only the already opened key, held by the Android Keystore, so that the app opens with your fingerprint without asking for the passphrase every time. Without the passphrase the files in the folder cannot be read — not even by us, who never receive them anyway.</p>
+  <p><strong>If you lose both the passphrase and the phone, the codes are lost.</strong> There is no recovery, because there is nobody who could perform one.</p>
+
+  <h2>The folder and sharing</h2>
+  <p>The codes folder can be read by other apps with access to media files, and can be copied by a sync service you already use (for example Syncthing, Mega or Drive), between your devices or to other people. That service does the copying, under its own terms and privacy policy: Seal only writes the files. Whoever hosts the files sees how many there are, when they change and the names of shared groups; not their content.</p>
+  <p>A <strong>shared group</strong> is a subfolder with its own passphrase, which you give to the other people. Whoever has that passphrase sees and can use the group's codes. The name you write in the settings travels, inside the encrypted files, with the codes you add to a group.</p>
+  <p>Deleted codes stay in the folder as encrypted placeholders for thirty days — so that another device cannot bring them back — and then disappear.</p>
+
+  <h2>Clipboard</h2>
+  <p>When you tap a code, Seal copies it to the clipboard marked as sensitive (on Android 13 and later it does not appear in the preview) and clears it after 30 seconds, unless you copied something else meanwhile.</p>
+
+  <h2>Advertising</h2>
+  <p>Seal shows a banner through Google AdMob, which may collect the advertising identifier, the IP address, technical information about the device and ad interaction data. Google processes them as an independent controller: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></p>
+  <p>In the European Economic Area, the United Kingdom and Switzerland, Google's consent message appears at first launch: until you answer, the app requests no ads. Neither the codes nor their names reach the ad network.</p>
+
+  <h2>Data that stays on the device</h2>
+  <p>The app's preferences (fingerprint lock, your name for groups, a random device identifier generated locally) stay on the device. Seal is excluded from Google backup and from device-to-device transfer.</p>
+  <p><strong>Uninstalling Seal makes Android delete the codes folder too.</strong> Copies a sync service has already carried elsewhere stay there, encrypted: on another phone they open with the passphrase.</p>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children under 13.</p>
+
+  <h2>Your rights</h2>
+  <p>Having no accounts and no backend, we hold no data about you. For data processed by Google AdMob, rights are exercised with Google.</p>
+  <p>Questions: <a href="mailto:privacy@mindcontact.net">privacy@mindcontact.net</a></p>
+
+  <footer>
+    MindContact · <a href="../../">Seal</a> · <a href="../">Versione italiana</a>
+  </footer>
+</main>
+</body>
+</html>
