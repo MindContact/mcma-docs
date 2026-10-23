@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chip — The SID synthesizer, playable from a MIDI keyboard</title>
+<meta name="description" content="Chip emulates the SID sound chip of the 8-bit home computers on your phone: three voices, filter, arpeggio, and a USB MIDI keyboard that plays with no needless latency.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="../assets/hero.webp" alt="">
+  <div class="hero-inner">
+    <img class="icon" src="../assets/icon.png" width="88" height="88" alt="">
+    <h1>Chip</h1>
+    <p class="tagline">The 8-bit SID sound chip, emulated: three voices, filter, arpeggio, MIDI input.</p>
+  </div>
+</header>
+<main>
+  <p class="lang"><a href="../">Italiano</a><strong>English</strong></p>
+
+  <p class="lede">It opens ready to play: a sound loaded, two octaves of keys at the bottom,
+  and above them a phosphor oscilloscope drawing what the chip is actually
+  putting out. Under your fingers are the SID's registers — waveforms,
+  envelope, filter — with the values written the way the chip wants them.</p>
+
+  <ul class="shots">
+    <li><figure>
+      <img src="../assets/shot-1.webp" loading="lazy" alt="The first voice's panel, with the pulse wave on the scope and a key held.">
+      <figcaption>Three voices, four waveforms, ring and sync: the scope shows what is playing.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="../assets/shot-2.webp" loading="lazy" alt="The filter panel: low-pass mode, the three voices routed, cutoff and resonance.">
+      <figcaption>Low-pass, band-pass and high-pass with resonance, on the 6581 or the 8580.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="../assets/shot-3.webp" loading="lazy" alt="The modulation panel: unison mode, LFO and arpeggiator.">
+      <figcaption>Poly, unison or one voice per MIDI channel, and the frame-rate arpeggio.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="../assets/shot-4.webp" loading="lazy" alt="The list of factory presets, with the button to save your own.">
+      <figcaption>Eight factory sounds, and your own saved by name.</figcaption>
+    </figure></li>
+  </ul>
+
+  <h2>What it does</h2>
+  <ul>
+    <li><strong>The chip, not an imitation</strong>: triangle, sawtooth, pulse
+    with variable width and noise, combined too; ring modulation and hard sync
+    between neighbouring voices; ADSR envelopes with the datasheet timings and
+    the exponential tail; multimode filter with resonance. Two models: the
+    <strong>6581</strong>, with the dirty filter of the first computers, and
+    the <strong>8580</strong>, clean and more resonant.</li>
+    <li><strong>Three play modes</strong>: three-note poly, unison with the three
+    voices stacked and glide, or one voice per MIDI channel, like the columns
+    of a tracker.</li>
+    <li><strong>Arpeggiator</strong> stepping at one frame, 1/50 of a second: the
+    chord 8-bit music played on a chip with only three voices. Up, down,
+    up-down, random, up to three octaves.</li>
+    <li><strong>LFO</strong> for vibrato and pulse width modulation, and the
+    envelope that opens the filter.</li>
+    <li><strong>Eight factory sounds</strong> and your own, saved by name.</li>
+    <li><strong>In landscape</strong> the keyboard takes the whole width: three
+    octaves on a phone, four on a tablet.</li>
+    <li>In <strong>English</strong> and <strong>Italian</strong>, following the
+    phone's language.</li>
+  </ul>
+
+  <h2>A MIDI keyboard, no permissions</h2>
+  <p>Plug a USB keyboard in with an OTG cable and it is ready as soon as it
+  shows up at the top: it comes through Android's MIDI service, which asks for
+  no permission. Notes do not cross the interface — they go from the system
+  straight to the audio engine, written in C++ and playing through AAudio,
+  Android's low-latency path. With <strong>MIDI learn</strong> you touch a knob
+  on screen and move a control on the keyboard: from then on it drives it.
+  Sustain pedal and pitch bend work out of the box, and while the keyboard is
+  plugged in the screen stays on.</p>
+
+  <h2>Your data stays yours</h2>
+  <p>Chip <strong>does not listen</strong> and records nothing: no microphone, no
+  account, no servers of ours. The sound is computed on the phone, sample by
+  sample, and your presets and MIDI assignments stay on the phone. The only
+  permission is Internet, which the ads need.</p>
+
+  <h2>How it is paid for</h2>
+  <p>With a banner anchored at the bottom, away from the keys. A full-screen ad
+  may appear rarely, only after saving a preset: never while you play. No
+  subscription, no sound held hostage.</p>
+
+  <h2>Where to get it</h2>
+  <div class="box">
+    <p><a href="https://play.google.com/store/apps/details?id=app.mindcontact.chip">Chip on Google Play</a></p>
+    <p><a href="../privacy/en/">Privacy policy</a></p>
+  </div>
+
+  <footer>
+    MindContact · <a href="../../en/">All apps</a> · <a href="../privacy/en/">Privacy policy</a> · <a href="../">Italiano</a>
+  </footer>
+</main>
+</body>
+</html>

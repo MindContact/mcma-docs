@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chip — Il sintetizzatore SID, suonabile da tastiera MIDI</title>
+<meta name="description" content="Chip emula sul telefono il chip sonoro SID degli home computer a 8 bit: tre voci, filtro, arpeggio, e una tastiera MIDI USB che suona senza latenza inutile.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="assets/hero.webp" alt="">
+  <div class="hero-inner">
+    <img class="icon" src="assets/icon.png" width="88" height="88" alt="">
+    <h1>Chip</h1>
+    <p class="tagline">Il chip sonoro SID a 8 bit emulato: tre voci, filtro, arpeggio e ingresso MIDI.</p>
+  </div>
+</header>
+<main>
+  <p class="lang"><strong>Italiano</strong><a href="en/">English</a></p>
+
+  <p class="lede">Si apre già pronto a suonare: un suono caricato, due ottave di tasti in
+  fondo, e sopra l'oscilloscopio a fosfori che disegna quello che il chip sta
+  emettendo davvero. Sotto le dita ci sono i registri del SID — forme d'onda,
+  inviluppo, filtro — con i valori scritti come li vuole il chip.</p>
+
+  <ul class="shots">
+    <li><figure>
+      <img src="assets/shot-1.webp" loading="lazy" alt="Il pannello della prima voce, con l'onda a impulso sull'oscilloscopio e una nota premuta.">
+      <figcaption>Tre voci, quattro forme d'onda, ring e sync: l'oscilloscopio mostra quello che suona.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="assets/shot-2.webp" loading="lazy" alt="Il pannello del filtro: modo passa-basso, le tre voci instradate, taglio e risonanza.">
+      <figcaption>Passa-basso, passa-banda e passa-alto con risonanza, sul 6581 o sull'8580.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="assets/shot-3.webp" loading="lazy" alt="Il pannello della modulazione: modo unisono, LFO e arpeggiatore.">
+      <figcaption>Poli, unisono o una voce per canale MIDI, e l'arpeggio a passo di fotogramma.</figcaption>
+    </figure></li>
+    <li><figure>
+      <img src="assets/shot-4.webp" loading="lazy" alt="L'elenco dei preset di fabbrica, con il pulsante per salvare il proprio.">
+      <figcaption>Otto suoni di fabbrica, e i tuoi salvati per nome.</figcaption>
+    </figure></li>
+  </ul>
+
+  <h2>Cosa fa</h2>
+  <ul>
+    <li><strong>Il chip, non un'imitazione</strong>: triangolo, dente di sega,
+    impulso con larghezza variabile e rumore, anche combinati; ring modulation e
+    sync rigido fra voci vicine; inviluppi ADSR con i tempi del datasheet e la
+    coda esponenziale; filtro multimodo con risonanza. Due modelli: il
+    <strong>6581</strong>, con il filtro sporco dei primi computer, e
+    l'<strong>8580</strong>, pulito e più risonante.</li>
+    <li><strong>Tre modi di gioco</strong>: poli a tre note, unisono con le tre
+    voci sovrapposte e il glide, oppure una voce per canale MIDI, come le
+    colonne di un tracker.</li>
+    <li><strong>Arpeggiatore</strong> al passo di un fotogramma, 1/50 di
+    secondo: l'accordo che le musiche a 8 bit suonavano su un chip con tre voci
+    sole. Su, giù, su e giù, casuale, fino a tre ottave.</li>
+    <li><strong>LFO</strong> per vibrato e modulazione d'impulso, e
+    l'inviluppo che apre il filtro.</li>
+    <li><strong>Otto suoni di fabbrica</strong> e i tuoi, salvati per nome.</li>
+    <li><strong>In orizzontale</strong> la tastiera prende tutta la larghezza:
+    tre ottave sul telefono, quattro sul tablet.</li>
+    <li>In <strong>italiano</strong> e in <strong>inglese</strong>, secondo la
+    lingua del telefono.</li>
+  </ul>
+
+  <h2>Una tastiera MIDI, senza permessi</h2>
+  <p>Collega una tastiera USB con un cavo OTG ed è pronta appena compare in
+  alto: passa dal servizio MIDI di Android, che non chiede nessun permesso. Le
+  note non attraversano l'interfaccia — vanno dal sistema dritte al motore
+  audio, che è scritto in C++ e suona da AAudio, il percorso a bassa latenza di
+  Android. Con il <strong>MIDI learn</strong> tocchi una manopola sullo schermo
+  e muovi un controllo della tastiera: da quel momento lo comanda lui. Pedale di
+  sustain e pitch bend funzionano da subito, e finché la tastiera è collegata
+  lo schermo resta acceso.</p>
+
+  <h2>I tuoi dati restano tuoi</h2>
+  <p>Chip <strong>non ascolta</strong> e non registra: nessun microfono, nessun
+  account, nessun server nostro. Il suono è calcolato sul telefono, campione per
+  campione, e i tuoi preset e le assegnazioni MIDI restano sul telefono.
+  L'unico permesso è Internet, che serve agli annunci.</p>
+
+  <h2>Come si paga</h2>
+  <p>Con un banner ancorato in fondo, lontano dai tasti. Un annuncio a tutto
+  schermo può comparire di rado, solo dopo aver salvato un preset: mai mentre
+  suoni. Nessun abbonamento, nessun suono tenuto in ostaggio.</p>
+
+  <h2>Dove trovarla</h2>
+  <div class="box">
+    <p><a href="https://play.google.com/store/apps/details?id=app.mindcontact.chip">Chip su Google Play</a></p>
+    <p><a href="privacy/">Informativa sulla privacy</a></p>
+  </div>
+
+  <footer>
+    MindContact · <a href="../">Tutte le app</a> · <a href="privacy/">Informativa privacy</a> · <a href="en/">English</a>
+  </footer>
+</main>
+</body>
+</html>
