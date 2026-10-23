@@ -34,4 +34,8 @@ Allow: /mcma-maze/
 Allow: /mcma-morph/
 Allow: /mcma-golden/
 Allow: /mcma-spectrum/
+Allow: /mcma-slingshot/
+Allow: /mcma-contraption/
+Allow: /mcma-sundial/
+Allow: /mcma-qibla/
 Disallow: /mcma-

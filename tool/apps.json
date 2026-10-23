@@ -43,7 +43,8 @@
     "name": "Contraption",
     "it": "La macchina da montare, pezzo per pezzo",
     "en": "The machine to build, part by part",
-    "published": false
+    "package": "app.mindcontact.contraption",
+    "published": true
   },
   {
     "slug": "mcma-decibel",
@@ -168,7 +169,8 @@
     "name": "Qibla",
     "it": "La direzione della Kaaba e gli orari di preghiera",
     "en": "The direction of the Kaaba and prayer times",
-    "published": false
+    "package": "app.mindcontact.qibla",
+    "published": true
   },
   {
     "slug": "mcma-reach",
@@ -205,7 +207,8 @@
     "name": "Slingshot",
     "it": "La fionda, la gravità dei pianeti e un bersaglio",
     "en": "The sling, the planets’ gravity and a target",
-    "published": false
+    "package": "app.mindcontact.slingshot",
+    "published": true
   },
   {
     "slug": "mcma-spectrum",
@@ -228,7 +231,8 @@
     "name": "Sundial",
     "it": "L&#x27;ora che tiene il Sole",
     "en": "The time the Sun keeps",
-    "published": false
+    "package": "app.mindcontact.sundial",
+    "published": true
   },
   {
     "slug": "mcma-tempo",
