@@ -29,7 +29,7 @@
     "it": "Il chip sonoro SID a 8 bit, da tastiera MIDI",
     "en": "The 8-bit SID sound chip, from a MIDI keyboard",
     "package": "app.mindcontact.chip",
-    "published": false
+    "published": true
   },
   {
     "slug": "mcma-colmo",
@@ -52,6 +52,14 @@
     "it": "La macchina da montare, pezzo per pezzo",
     "en": "The machine to build, part by part",
     "package": "app.mindcontact.contraption",
+    "published": true
+  },
+  {
+    "slug": "mcma-crate",
+    "name": "Crate",
+    "it": "Le casse da spingere sulle lampade del magazzino",
+    "en": "The crates to push onto the warehouse lamps",
+    "package": "app.mindcontact.crate",
     "published": true
   },
   {
@@ -90,6 +98,22 @@
     "it": "Alba, tramonto, ora dorata",
     "en": "Sunrise, sunset, golden hour",
     "package": "app.mindcontact.golden",
+    "published": true
+  },
+  {
+    "slug": "mcma-hollow",
+    "name": "Hollow",
+    "it": "La parodia delle app di meditazione",
+    "en": "A parody of meditation apps",
+    "package": "app.mindcontact.hollow",
+    "published": true
+  },
+  {
+    "slug": "mcma-hush",
+    "name": "Hush",
+    "it": "Blocca le chiamate moleste, senza server",
+    "en": "Blocks nuisance calls, with no server",
+    "package": "app.mindcontact.hush",
     "published": true
   },
   {
@@ -189,6 +213,14 @@
     "published": true
   },
   {
+    "slug": "mcma-rebound",
+    "name": "Rebound",
+    "it": "La pallina, la racchetta e il muro di mattoni",
+    "en": "The ball, the paddle and the wall of bricks",
+    "package": "app.mindcontact.rebound",
+    "published": true
+  },
+  {
     "slug": "mcma-recorder",
     "name": "Recorder",
     "it": "Il registratore",
@@ -202,6 +234,14 @@
     "it": "I pad con i sample pack caricabili",
     "en": "Pads with loadable sample packs",
     "published": false
+  },
+  {
+    "slug": "mcma-seal",
+    "name": "Seal",
+    "it": "I codici a due passaggi, cifrati",
+    "en": "Two-step verification codes, encrypted",
+    "package": "app.mindcontact.seal",
+    "published": true
   },
   {
     "slug": "mcma-sky",
@@ -232,6 +272,14 @@
     "it": "Il calendario dell&#x27;orto e del giardino",
     "en": "The kitchen garden and the garden, by the calendar",
     "package": "app.mindcontact.sprout",
+    "published": true
+  },
+  {
+    "slug": "mcma-stack",
+    "name": "Stack",
+    "it": "Blocchi di luce da incastrare riga per riga",
+    "en": "Blocks of light to fit row by row",
+    "package": "app.mindcontact.stack",
     "published": true
   },
   {

@@ -8,6 +8,7 @@ App: **Stack**, Incastra i blocchi che cadono e completa le righe. Package `app.
 | App page (EN) | [en/](https://mindcontact.app/mcma-stack/en/) | [`en/index.html`](en/index.html) |
 | Informativa privacy (IT) | [privacy/](https://mindcontact.app/mcma-stack/privacy/) | [`privacy/privacy-policy.it.md`](privacy/privacy-policy.it.md) |
 | Privacy policy (EN) | [privacy/en/](https://mindcontact.app/mcma-stack/privacy/en/) | [`privacy/privacy-policy.en.md`](privacy/privacy-policy.en.md) |
+| Scheda Google Play | [play.google.com](https://play.google.com/store/apps/details?id=app.mindcontact.stack) | — |
 
 Aggiornando un documento, cambia anche la data in cima alla pagina: gli store
 la usano per capire se l'informativa è corrente. Il sorgente vive anche in

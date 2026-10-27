@@ -38,4 +38,11 @@ Allow: /mcma-slingshot/
 Allow: /mcma-contraption/
 Allow: /mcma-sundial/
 Allow: /mcma-qibla/
+Allow: /mcma-chip/
+Allow: /mcma-crate/
+Allow: /mcma-hollow/
+Allow: /mcma-hush/
+Allow: /mcma-rebound/
+Allow: /mcma-seal/
+Allow: /mcma-stack/
 Disallow: /mcma-
