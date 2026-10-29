@@ -2,7 +2,7 @@
 
 *Ultimo aggiornamento: 20 ottobre 2026*
 
-Titolare del trattamento: MindContact — privacy@mindcontact.net
+Titolare del trattamento: MindContact di Luttino Roberto, Via Ivrea 41, 10016 Montalto Dora (TO), P.IVA 10699860010, raggiungibile con il [modulo di contatto](https://mindcontact.app/#contatti) di mindcontact.app.
 
 ## In breve
 
@@ -47,7 +47,7 @@ L'app non è rivolta a minori di 13 anni.
 Non avendo account né backend, non deteniamo dati che ti riguardano. Per i dati
 trattati da Google AdMob, i diritti si esercitano presso Google.
 
-Domande: privacy@mindcontact.net
+Domande: scrivici con il [modulo di contatto](https://mindcontact.app/#contatti) di mindcontact.app.
 
 ---
 

@@ -2,7 +2,7 @@
 
 *Ultimo aggiornamento: 4 settembre 2026*
 
-Titolare del trattamento: MindContact — privacy@mindcontact.net
+Titolare del trattamento: MindContact di Luttino Roberto, Via Ivrea 41, 10016 Montalto Dora (TO), P.IVA 10699860010, raggiungibile con il [modulo di contatto](https://mindcontact.app/#contatti) di mindcontact.app.
 
 Biorhythm disegna tre curve a partire da una data. Quella data non lascia mai il
 telefono.
@@ -71,7 +71,7 @@ Non avendo account né backend, non deteniamo dati che ti riguardano: non c'è
 nulla da chiederci di cancellare, perché nulla è mai arrivato a noi. Per i dati
 trattati da Google AdMob, i diritti si esercitano presso Google.
 
-Domande: privacy@mindcontact.net
+Domande: scrivici con il [modulo di contatto](https://mindcontact.app/#contatti) di mindcontact.app.
 
 ---
 

@@ -2,7 +2,7 @@
 
 *Last updated: 2 October 2026*
 
-Data controller: MindContact — privacy@mindcontact.net
+Data controller: MindContact di Luttino Roberto, Via Ivrea 41, 10016 Montalto Dora (TO), P.IVA 10699860010, reachable through the [contact form](https://mindcontact.app/en/#contatti) on mindcontact.app.
 
 ## In short
 
@@ -67,4 +67,4 @@ With no accounts and no backend, we hold no data about you: what is on the
 phone you delete yourself, what is on the Odoo server is managed by whoever
 runs it. For data processed by Google AdMob, rights are exercised with Google.
 
-Questions: privacy@mindcontact.net
+Questions: write to us through the [contact form](https://mindcontact.app/en/#contatti) on mindcontact.app.

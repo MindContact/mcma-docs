@@ -2,7 +2,7 @@
 
 *Last updated: 4 September 2026*
 
-Data controller: MindContact — privacy@mindcontact.net
+Data controller: MindContact di Luttino Roberto, Via Ivrea 41, 10016 Montalto Dora (TO), P.IVA 10699860010, reachable through the [contact form](https://mindcontact.app/en/#contatti) on mindcontact.app.
 
 Biorhythm draws three curves from one date. That date never leaves your phone.
 
@@ -67,4 +67,4 @@ With no account and no backend we hold no data about you: there is nothing to
 ask us to delete, because nothing ever reached us. For data processed by Google
 AdMob, exercise your rights with Google.
 
-Questions: privacy@mindcontact.net
+Questions: write to us through the [contact form](https://mindcontact.app/en/#contatti) on mindcontact.app.

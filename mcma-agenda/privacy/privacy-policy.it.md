@@ -5,7 +5,7 @@
 Agenda mostra e modifica i calendari che sono già sul tuo telefono. Non li
 copia da nessuna parte.
 
-Titolare del trattamento: MindContact — privacy@mindcontact.net
+Titolare del trattamento: MindContact di Luttino Roberto, Via Ivrea 41, 10016 Montalto Dora (TO), P.IVA 10699860010, raggiungibile con il [modulo di contatto](https://mindcontact.app/#contatti) di mindcontact.app.
 
 ## In breve
 
@@ -95,4 +95,4 @@ con la data di aggiornamento in cima.
 
 ## Contatti
 
-privacy@mindcontact.net
+Scrivici con il [modulo di contatto](https://mindcontact.app/#contatti) di mindcontact.app, o per posta all'indirizzo del titolare indicato sopra.

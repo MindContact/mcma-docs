@@ -2,7 +2,7 @@
 
 *Last updated: 20 October 2026*
 
-Data controller: MindContact — [privacy@mindcontact.net](mailto:privacy@mindcontact.net)
+Data controller: MindContact di Luttino Roberto, Via Ivrea 41, 10016 Montalto Dora (TO), P.IVA 10699860010, reachable through the [contact form](https://mindcontact.app/en/#contatti) on mindcontact.app.
 
 ## In short
 
@@ -64,4 +64,4 @@ The app is not directed at children under 13.
 
 Having no accounts and no backend, we hold no data about you. For data processed by Google AdMob, rights are exercised with Google.
 
-Questions: [privacy@mindcontact.net](mailto:privacy@mindcontact.net)
+Questions: write to us through the [contact form](https://mindcontact.app/en/#contatti) on mindcontact.app.

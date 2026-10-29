@@ -325,7 +325,7 @@
       </div>
     </li>
   </ul>
-  <p class="updated">and more on the way</p>
+  <p class="updated more">and more on the way</p>
 
   <h2>True of every one</h2>
   <ul class="promise">
@@ -334,11 +334,52 @@
     <li><strong>What leaves is written down</strong><span>The only data leaving the device is Google AdMob's, for the ads, and every policy spells it out.</span></li>
   </ul>
 
-  <p class="contact">Write to us: <a href="mailto:support@mindcontact.net">support@mindcontact.net</a></p>
+  <section id="contatti">
+  <h2>Write to us</h2>
+  <p class="measure">A question about an app, a problem, an idea: a person answers, not a bot.</p>
+  <form class="form" action="https://forms.mindcontact.net/v1/contact" method="POST" data-contact-form
+        data-sending="Sending…" data-sent="Thank you, your message has arrived. We will get back to you shortly." data-error="We could not send your message. Please try again in a few minutes.">
+    <input type="hidden" name="site" value="mindcontact.app">
+    <input type="hidden" name="lang" value="en">
+    <input type="hidden" name="privacy_version" value="2026-10-29">
+    <input type="hidden" name="_next" value="https://mindcontact.app/en/?sent#contatti">
+    <input class="honey" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label class="field"><span>Name</span><input name="nome" type="text" required autocomplete="name" maxlength="120"></label>
+    <label class="field"><span>Email</span><input name="email" type="email" required autocomplete="email" maxlength="254"></label>
+    <label class="field field--full"><span>Message</span><textarea name="messaggio" rows="5" required maxlength="5000"></textarea></label>
+    <label class="check field--full"><input type="checkbox" name="consenso" value="si" required><span>I have read the <a href="#privacy-form">notice</a> and agree to the processing of my data in order to receive a reply.</span></label>
+    <div class="actions field--full">
+      <button type="submit">Send the message</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </div>
+  </form>
+  </section>
 
   <footer>
-    MindContact · <a href="https://github.com/MindContact" target="_blank" rel="noopener">github.com/MindContact</a>
+    MindContact di Luttino Roberto · Via Ivrea 41, 10016 Montalto Dora (TO) · P.IVA 10699860010<br>
+    <a href="#privacy-form">Contact form privacy notice</a> · <a href="https://github.com/MindContact" target="_blank" rel="noopener">github.com/MindContact</a>
   </footer>
 </main>
+<dialog class="modal" id="privacy-form" aria-labelledby="privacy-form-title">
+  <form method="dialog" class="modal-close"><button type="submit" aria-label="Close">×</button></form>
+  <div class="modal-body">
+    <h2 id="privacy-form-title">Contact form privacy notice</h2>
+    <p>Information under Article 13 of Regulation (EU) 2016/679 (GDPR) for anyone who writes through the contact form on this site. Each app has its own privacy policy.</p>
+    <h3>Data controller</h3>
+    <p>MindContact di Luttino Roberto, Via Ivrea 41, 10016 Montalto Dora (TO), P.IVA 10699860010, reachable through the contact form on this page.</p>
+    <h3>What data</h3>
+    <p>Name, email address and the text of the message. When you send it we also record proof of consent: date and time, the version of this notice and an encrypted fingerprint (hash) of the IP address, from which the address cannot be recovered.</p>
+    <h3>Why</h3>
+    <p>Only to read the request and reply. Legal basis: consent (Art. 6.1.a). No profiling, no newsletter, no handing over to third parties.</p>
+    <h3>How</h3>
+    <p>The form is handled by a MindContact service on a server in Italy, which keeps the consent register and forwards the message by email. The server and mail providers process the data on our behalf.</p>
+    <h3>How long</h3>
+    <p>Messages for as long as needed to reply, and no longer than 12 months after the last contact; the consent record for as long as we may need to prove it.</p>
+    <h3>Your rights</h3>
+    <p>Access, rectification, erasure, restriction, portability, objection (Arts. 15–22) and withdrawal of consent, by writing through the same form or to the controller's postal address. You can also complain to the Italian Data Protection Authority (garanteprivacy.it).</p>
+    <p class="updated">2026-10-29</p>
+  </div>
+</dialog>
+<script src="../form.js" defer></script>
 </body>
 </html>

@@ -30,7 +30,7 @@ STRINGS = {
         facts=["Nessun account", "Nessun server nostro", "Un'informativa per ognuna"],
         soon_h2="Stanno arrivando",
         soon_lede="Le prime app sono in lavorazione e arrivano su Google Play una alla volta. Questa pagina si aggiorna appena la prima è pubblicata: qui sotto comparirà, con la sua pagina e la sua informativa.",
-        soon_note="Nel frattempo non c'è niente da scaricare e niente da lasciare: nessuna mail, nessun modulo.",
+        soon_note="Nel frattempo non c'è niente da scaricare.",
         apps_h2="Le app",
         apps_note="Arrivano su Google Play una alla volta.",
         more="e altre in arrivo",
@@ -38,7 +38,19 @@ STRINGS = {
         promise=[("Non ti viene chiesto chi sei", "Nessuna app crea un account o chiede una registrazione."),
                  ("Quello che calcola resta lì", "Non c'è un server nostro: il lavoro dell'app finisce sul telefono."),
                  ("Quello che esce è scritto", "L'unico dato che lascia il dispositivo è quello di Google AdMob per gli annunci, e ogni informativa lo dice per esteso.")],
-        contact="Scrivici:", privacy="Privacy", play="Google Play", other_lang="English"),
+        privacy="Privacy", play="Google Play", other_lang="English",
+        contact=dict(
+            h2="Scrivici",
+            lede="Una domanda su un'app, un problema, un'idea: rispondiamo noi, non un bot.",
+            name="Nome", email="Email", message="Messaggio",
+            consent='Ho letto l\'<a href="#privacy-form">informativa</a> e acconsento al trattamento dei dati per ricevere una risposta.',
+            button="Invia il messaggio",
+            sending="Invio in corso…",
+            sent="Grazie, il messaggio è arrivato. Ti rispondiamo a breve.",
+            error="Non siamo riusciti a inviare il messaggio. Riprova tra qualche minuto.",
+            next="https://mindcontact.app/?inviato#contatti",
+            close="Chiudi"),
+        footer_privacy="Informativa del modulo di contatto"),
     "en": dict(
         lang="en", css="../style.css", base="../", other='<a href="../">Italiano</a><strong>English</strong>',
         title="MindContact — small apps that do one thing",
@@ -48,7 +60,7 @@ STRINGS = {
         facts=["No account", "No server of ours", "A policy for each one"],
         soon_h2="On their way",
         soon_lede="The first apps are being built, and they reach Google Play one at a time. This page updates as soon as the first one is out: it will appear right here, with its own page and its privacy policy.",
-        soon_note="In the meantime there is nothing to download and nothing to leave behind: no email, no form.",
+        soon_note="In the meantime there is nothing to download.",
         apps_h2="The apps",
         apps_note="They reach Google Play one at a time.",
         more="and more on the way",
@@ -56,8 +68,84 @@ STRINGS = {
         promise=[("Nobody asks who you are", "No app creates an account or asks you to register."),
                  ("What it works out stays there", "There is no server of ours: the app's work ends on the phone."),
                  ("What leaves is written down", "The only data leaving the device is Google AdMob's, for the ads, and every policy spells it out.")],
-        contact="Write to us:", privacy="Privacy", play="Google Play", other_lang="Italiano"),
+        privacy="Privacy", play="Google Play", other_lang="Italiano",
+        contact=dict(
+            h2="Write to us",
+            lede="A question about an app, a problem, an idea: a person answers, not a bot.",
+            name="Name", email="Email", message="Message",
+            consent='I have read the <a href="#privacy-form">notice</a> and agree to the processing of my data in order to receive a reply.',
+            button="Send the message",
+            sending="Sending…",
+            sent="Thank you, your message has arrived. We will get back to you shortly.",
+            error="We could not send your message. Please try again in a few minutes.",
+            next="https://mindcontact.app/en/?sent#contatti",
+            close="Close"),
+        footer_privacy="Contact form privacy notice"),
 }
+
+
+# Contact form backend shared by every MindContact site (../mindcontact-forms).
+FORM_ENDPOINT = "https://forms.mindcontact.net/v1/contact"
+PRIVACY_VERSION = "2026-10-29"
+CONTROLLER = "MindContact di Luttino Roberto, Via Ivrea 41, 10016 Montalto Dora (TO), P.IVA 10699860010"
+
+FORM_PRIVACY = {
+    "it": ("Informativa del modulo di contatto", [
+        (None, "Informativa ai sensi dell'art. 13 del Regolamento (UE) 2016/679 (GDPR) per chi scrive con il modulo di contatto di questo sito. Le app hanno ciascuna la propria informativa."),
+        ("Titolare del trattamento", f"{CONTROLLER}, raggiungibile con il modulo di contatto di questa pagina."),
+        ("Quali dati", "Nome, indirizzo email e il testo del messaggio. All'invio registriamo anche la prova del consenso: data e ora, versione di questa informativa e un'impronta cifrata (hash) dell'indirizzo IP, da cui non si risale all'indirizzo."),
+        ("Perché", "Solo per leggere la richiesta e rispondere. Base giuridica: il consenso (art. 6.1.a). Nessuna profilazione, nessuna newsletter, nessuna cessione a terzi."),
+        ("Come", "Il modulo è gestito da un servizio di MindContact su un server in Italia, che conserva il registro dei consensi e inoltra il messaggio per email. Il fornitore del server e quello della posta trattano i dati per nostro conto."),
+        ("Per quanto", "I messaggi per il tempo necessario a rispondere, e comunque non oltre 12 mesi dall'ultimo contatto; il registro del consenso finché potremmo doverlo dimostrare."),
+        ("I tuoi diritti", "Accesso, rettifica, cancellazione, limitazione, portabilità, opposizione (artt. 15–22) e revoca del consenso, scrivendoci con lo stesso modulo o all'indirizzo postale del titolare. Puoi anche rivolgerti al Garante per la protezione dei dati personali (garanteprivacy.it)."),
+    ]),
+    "en": ("Contact form privacy notice", [
+        (None, "Information under Article 13 of Regulation (EU) 2016/679 (GDPR) for anyone who writes through the contact form on this site. Each app has its own privacy policy."),
+        ("Data controller", f"{CONTROLLER}, reachable through the contact form on this page."),
+        ("What data", "Name, email address and the text of the message. When you send it we also record proof of consent: date and time, the version of this notice and an encrypted fingerprint (hash) of the IP address, from which the address cannot be recovered."),
+        ("Why", "Only to read the request and reply. Legal basis: consent (Art. 6.1.a). No profiling, no newsletter, no handing over to third parties."),
+        ("How", "The form is handled by a MindContact service on a server in Italy, which keeps the consent register and forwards the message by email. The server and mail providers process the data on our behalf."),
+        ("How long", "Messages for as long as needed to reply, and no longer than 12 months after the last contact; the consent record for as long as we may need to prove it."),
+        ("Your rights", "Access, rectification, erasure, restriction, portability, objection (Arts. 15–22) and withdrawal of consent, by writing through the same form or to the controller's postal address. You can also complain to the Italian Data Protection Authority (garanteprivacy.it)."),
+    ]),
+}
+
+
+def _contact(lang: str, t: dict) -> str:
+    c = t["contact"]
+    return f"""  <section id="contatti">
+  <h2>{c['h2']}</h2>
+  <p class="measure">{c['lede']}</p>
+  <form class="form" action="{FORM_ENDPOINT}" method="POST" data-contact-form
+        data-sending="{c['sending']}" data-sent="{c['sent']}" data-error="{c['error']}">
+    <input type="hidden" name="site" value="mindcontact.app">
+    <input type="hidden" name="lang" value="{lang}">
+    <input type="hidden" name="privacy_version" value="{PRIVACY_VERSION}">
+    <input type="hidden" name="_next" value="{c['next']}">
+    <input class="honey" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label class="field"><span>{c['name']}</span><input name="nome" type="text" required autocomplete="name" maxlength="120"></label>
+    <label class="field"><span>{c['email']}</span><input name="email" type="email" required autocomplete="email" maxlength="254"></label>
+    <label class="field field--full"><span>{c['message']}</span><textarea name="messaggio" rows="5" required maxlength="5000"></textarea></label>
+    <label class="check field--full"><input type="checkbox" name="consenso" value="si" required><span>{c['consent']}</span></label>
+    <div class="actions field--full">
+      <button type="submit">{c['button']}</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </div>
+  </form>
+  </section>"""
+
+
+def _form_privacy(lang: str, t: dict) -> str:
+    title, parts = FORM_PRIVACY[lang]
+    body = "\n".join((f"    <h3>{h}</h3>\n" if h else "") + f"    <p>{p}</p>" for h, p in parts)
+    return f"""<dialog class="modal" id="privacy-form" aria-labelledby="privacy-form-title">
+  <form method="dialog" class="modal-close"><button type="submit" aria-label="{t['contact']['close']}">×</button></form>
+  <div class="modal-body">
+    <h2 id="privacy-form-title">{title}</h2>
+{body}
+    <p class="updated">{PRIVACY_VERSION}</p>
+  </div>
+</dialog>"""
 
 
 def _cards(lang: str, t: dict) -> str:
@@ -98,7 +186,7 @@ def build(lang: str) -> str:
   <ul class="grid">
 {_cards(lang, t)}
   </ul>
-  <p class="updated">{t['more']}</p>
+  <p class="updated more">{t['more']}</p>
 """
     else:
         body = f"""  <h2>{t['soon_h2']}</h2>
@@ -141,12 +229,15 @@ def build(lang: str) -> str:
 {promise}
   </ul>
 
-  <p class="contact">{t['contact']} <a href="mailto:support@mindcontact.net">support@mindcontact.net</a></p>
+{_contact(lang, t)}
 
   <footer>
-    MindContact · <a href="https://github.com/MindContact">github.com/MindContact</a>
+    MindContact di Luttino Roberto · Via Ivrea 41, 10016 Montalto Dora (TO) · P.IVA 10699860010<br>
+    <a href="#privacy-form">{t['footer_privacy']}</a> · <a href="https://github.com/MindContact">github.com/MindContact</a>
   </footer>
 </main>
+{_form_privacy(lang, t)}
+<script src="{t['base']}form.js" defer></script>
 </body>
 </html>
 """

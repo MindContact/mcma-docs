@@ -325,7 +325,7 @@
       </div>
     </li>
   </ul>
-  <p class="updated">e altre in arrivo</p>
+  <p class="updated more">e altre in arrivo</p>
 
   <h2>Quello che vale per tutte</h2>
   <ul class="promise">
@@ -334,11 +334,52 @@
     <li><strong>Quello che esce è scritto</strong><span>L'unico dato che lascia il dispositivo è quello di Google AdMob per gli annunci, e ogni informativa lo dice per esteso.</span></li>
   </ul>
 
-  <p class="contact">Scrivici: <a href="mailto:support@mindcontact.net">support@mindcontact.net</a></p>
+  <section id="contatti">
+  <h2>Scrivici</h2>
+  <p class="measure">Una domanda su un'app, un problema, un'idea: rispondiamo noi, non un bot.</p>
+  <form class="form" action="https://forms.mindcontact.net/v1/contact" method="POST" data-contact-form
+        data-sending="Invio in corso…" data-sent="Grazie, il messaggio è arrivato. Ti rispondiamo a breve." data-error="Non siamo riusciti a inviare il messaggio. Riprova tra qualche minuto.">
+    <input type="hidden" name="site" value="mindcontact.app">
+    <input type="hidden" name="lang" value="it">
+    <input type="hidden" name="privacy_version" value="2026-10-29">
+    <input type="hidden" name="_next" value="https://mindcontact.app/?inviato#contatti">
+    <input class="honey" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label class="field"><span>Nome</span><input name="nome" type="text" required autocomplete="name" maxlength="120"></label>
+    <label class="field"><span>Email</span><input name="email" type="email" required autocomplete="email" maxlength="254"></label>
+    <label class="field field--full"><span>Messaggio</span><textarea name="messaggio" rows="5" required maxlength="5000"></textarea></label>
+    <label class="check field--full"><input type="checkbox" name="consenso" value="si" required><span>Ho letto l'<a href="#privacy-form">informativa</a> e acconsento al trattamento dei dati per ricevere una risposta.</span></label>
+    <div class="actions field--full">
+      <button type="submit">Invia il messaggio</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </div>
+  </form>
+  </section>
 
   <footer>
-    MindContact · <a href="https://github.com/MindContact" target="_blank" rel="noopener">github.com/MindContact</a>
+    MindContact di Luttino Roberto · Via Ivrea 41, 10016 Montalto Dora (TO) · P.IVA 10699860010<br>
+    <a href="#privacy-form">Informativa del modulo di contatto</a> · <a href="https://github.com/MindContact" target="_blank" rel="noopener">github.com/MindContact</a>
   </footer>
 </main>
+<dialog class="modal" id="privacy-form" aria-labelledby="privacy-form-title">
+  <form method="dialog" class="modal-close"><button type="submit" aria-label="Chiudi">×</button></form>
+  <div class="modal-body">
+    <h2 id="privacy-form-title">Informativa del modulo di contatto</h2>
+    <p>Informativa ai sensi dell'art. 13 del Regolamento (UE) 2016/679 (GDPR) per chi scrive con il modulo di contatto di questo sito. Le app hanno ciascuna la propria informativa.</p>
+    <h3>Titolare del trattamento</h3>
+    <p>MindContact di Luttino Roberto, Via Ivrea 41, 10016 Montalto Dora (TO), P.IVA 10699860010, raggiungibile con il modulo di contatto di questa pagina.</p>
+    <h3>Quali dati</h3>
+    <p>Nome, indirizzo email e il testo del messaggio. All'invio registriamo anche la prova del consenso: data e ora, versione di questa informativa e un'impronta cifrata (hash) dell'indirizzo IP, da cui non si risale all'indirizzo.</p>
+    <h3>Perché</h3>
+    <p>Solo per leggere la richiesta e rispondere. Base giuridica: il consenso (art. 6.1.a). Nessuna profilazione, nessuna newsletter, nessuna cessione a terzi.</p>
+    <h3>Come</h3>
+    <p>Il modulo è gestito da un servizio di MindContact su un server in Italia, che conserva il registro dei consensi e inoltra il messaggio per email. Il fornitore del server e quello della posta trattano i dati per nostro conto.</p>
+    <h3>Per quanto</h3>
+    <p>I messaggi per il tempo necessario a rispondere, e comunque non oltre 12 mesi dall'ultimo contatto; il registro del consenso finché potremmo doverlo dimostrare.</p>
+    <h3>I tuoi diritti</h3>
+    <p>Accesso, rettifica, cancellazione, limitazione, portabilità, opposizione (artt. 15–22) e revoca del consenso, scrivendoci con lo stesso modulo o all'indirizzo postale del titolare. Puoi anche rivolgerti al Garante per la protezione dei dati personali (garanteprivacy.it).</p>
+    <p class="updated">2026-10-29</p>
+  </div>
+</dialog>
+<script src="form.js" defer></script>
 </body>
 </html>

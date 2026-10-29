@@ -5,7 +5,7 @@
 Tempo shows the time and the weather forecast. It does that, and collects as
 little as possible to do it.
 
-Data controller: MindContact — privacy@mindcontact.net
+Data controller: MindContact di Luttino Roberto, Via Ivrea 41, 10016 Montalto Dora (TO), P.IVA 10699860010, reachable through the [contact form](https://mindcontact.app/en/#contatti) on mindcontact.app.
 
 ## In short
 
@@ -95,4 +95,4 @@ date at the top.
 
 ## Contact
 
-privacy@mindcontact.net
+Write to us through the [contact form](https://mindcontact.app/en/#contatti) on mindcontact.app, or by post to the address of the data controller above.
