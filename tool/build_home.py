@@ -15,6 +15,7 @@ fuori dai motori di ricerca finché non le si toglie da robots.txt.
 from __future__ import annotations
 
 import json
+import re
 import pathlib
 
 APPS = json.loads((pathlib.Path(__file__).parent / "apps.json").read_text())
@@ -150,11 +151,27 @@ def build(lang: str) -> str:
 
 def main() -> None:
     root = pathlib.Path(__file__).parent.parent
-    (root / "index.html").write_text(build("it"))
-    (root / "en" / "index.html").write_text(build("en"))
+    (root / "index.html").write_text(new_tab(build("it")))
+    (root / "en" / "index.html").write_text(new_tab(build("en")))
     live = sum(1 for a in APPS if a["published"])
     print(f"home rigenerata: {live} app pubblicate su {len(APPS)}")
 
+
+
+ANCHOR = re.compile(r'<a\b([^>]*?)\bhref="(https?://[^"]*)"([^>]*)>')
+
+
+def new_tab(html):
+    """Absolute links open in a new tab; in-page and relative links stay (owner rule, 2026-10-29).
+    Same logic as ../mindcontact-identity/tools/link_nuova_scheda.py."""
+    def fix(m):
+        attrs = m.group(1) + m.group(3)
+        if "target=" in attrs:
+            return m.group(0)
+        if 'rel="' in attrs:
+            return m.group(0)[:-1] + ' target="_blank">'
+        return m.group(0)[:-1] + ' target="_blank" rel="noopener">'
+    return ANCHOR.sub(fix, html)
 
 if __name__ == "__main__":
     main()
