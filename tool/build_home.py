@@ -118,6 +118,9 @@ def build(lang: str) -> str:
 <title>{t['title']}</title>
 <meta name="description" content="{t['desc']}">
 <link rel="stylesheet" href="{t['css']}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
 <body>
 <!-- Generata da tool/build_home.py: non modificarla a mano, si riscrive. -->
